@@ -12,6 +12,16 @@
     background-blend-mode: normal;
 }
 
+/* Sections */
+.colored-section {
+  background-color: #41b3a3;
+  color: black;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Containers */
 .container-fluid {
   padding: 0% 15% 7%;
@@ -74,6 +84,7 @@
 
 .about-box{
   padding: 0 3%;
+  text-align: justify;
 }
 
 .hobby-list{
@@ -95,7 +106,7 @@
 .skill-line{
   border-style: none;
   border-top-style: solid;
-  border-color: orange;
+  border-color: black;
   height: 50px;
   border-width: 5px;
   width: 20%;
@@ -117,4 +128,9 @@
 
 .tools-frame{
    text-align: justify;
+}
+
+.skill-animation{
+  text-align: center;
+  padding-top: 3%;
 }
