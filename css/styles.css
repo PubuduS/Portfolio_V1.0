@@ -1,0 +1,120 @@
+/* Title Section */
+#title{
+  height:180vh;
+  min-height:400px;
+  background-size:cover;
+  background-image: url('../images/title-background.jpg');
+  background-color: #00ce2d;
+  /* background-color: #64ffda; */
+  background-blend-mode: darken;
+}
+#title:hover{
+    background-blend-mode: normal;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 0% 15% 7%;
+}
+
+.Intro{
+  text-align: center;
+  margin: 21% 15%;
+}
+
+.Intro-name{
+  color: #fff;
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+.Intro-line{
+  border-style: none;
+  border-top-style: solid;
+  border-color: black;
+  height: 50px;
+  border-width: 5px;
+  width: 30%;
+  margin: 2% auto 2% auto;
+}
+
+.nav-link{
+  color: black;
+  font-weight: bolder;
+}
+
+.nav-item{
+  margin: 0 20px 0;
+}
+
+.Intro-desc{
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.title-container{
+  padding: 0;
+  margin: 0;
+}
+
+/* About Me */
+.about-intro{
+  margin: 5% 40%;
+}
+
+.about-line{
+  border-style: none;
+  border-top-style: solid;
+  border-color: black;
+  height: 50px;
+  border-width: 5px;
+  width: 12%;
+}
+
+.about-box{
+  padding: 0 3%;
+}
+
+.hobby-list{
+  padding-left: 9%;
+}
+
+.hobby-item{
+  padding-bottom: 8%;
+}
+
+.my-pic{
+  border-radius: 100%;
+}
+
+/* Technical Skills */
+.skill-intro{
+  margin: 5% 40% 0;
+}
+.skill-line{
+  border-style: none;
+  border-top-style: solid;
+  border-color: orange;
+  height: 50px;
+  border-width: 5px;
+  width: 20%;
+}
+.skill-desc-intro{
+  padding: 2% 10% 1% 10%;
+  text-align: center;
+}
+
+.latest-tech{
+  padding: 1% 5%;
+  text-align: center;
+}
+
+.tools-intro{
+  text-align: center;
+  padding-bottom: 1%
+}
+
+.tools-frame{
+   text-align: justify;
+}
