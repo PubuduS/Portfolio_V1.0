@@ -1,0 +1,11 @@
+<map id="SimpleVisualizer::BucketSort" name="SimpleVisualizer::BucketSort">
+<area shape="rect" id="node1" title="Define BucketSort." alt="" coords="5,148,215,175"/>
+<area shape="rect" id="node2" href="$classSimpleVisualizer.html#a01cbfb5462a35fc303dffd526ef77b8c" title="Add element to the bucket." alt="" coords="273,31,495,57"/>
+<area shape="rect" id="node5" href="$classSimpleVisualizer.html#a7b7b3c1a055ddc5a5b1ce70d98dc21f8" title="Build a sorted version of array." alt="" coords="277,82,491,123"/>
+<area shape="rect" id="node6" href="$classSimpleVisualizer.html#a41fcd24dc1081b6af1501159102d01a9" title="Deallocate memory used for hash chaining. First destroy the all the nodes of each bucket...." alt="" coords="269,148,499,175"/>
+<area shape="rect" id="node7" href="$classSimpleVisualizer.html#ad123b75c7420e5cbb390841a49ae4ff7" title="Draw the original unsorted array for the bucket sort." alt="" coords="263,199,505,225"/>
+<area shape="rect" id="node9" href="$classSimpleVisualizer.html#afd0277a39a64bc0a2155df748529ac6c" title="Find max and min values used for calculations." alt="" coords="287,250,481,291"/>
+<area shape="rect" id="node3" href="$classSimpleVisualizer.html#ae577086c8773c6472c98f497448fd1f3" title="Add nodes to each list in each bucket." alt="" coords="563,5,762,32"/>
+<area shape="rect" id="node4" href="$classSimpleVisualizer.html#a56ef3320e64bcd015bf30b23cb20d6ed" title="Draw the list in each buckert. Need to improve this in future." alt="" coords="553,56,772,83"/>
+<area shape="rect" id="node8" href="$classSimpleVisualizer.html#a7f52c551a74028aab16c29cff8a665c2" title="Draw the bucket." alt="" coords="554,199,771,225"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="SimpleVisualizer::SwapElements" name="SimpleVisualizer::SwapElements">
+<area shape="rect" id="node1" title="Swap two elements." alt="" coords="1279,31,1513,57"/>
+<area shape="rect" id="node2" href="$classSimpleVisualizer.html#aeb5164c3bf7a1b4e44e564d08cdd4990" title="Define BubbleSort." alt="" coords="1013,5,1223,32"/>
+<area shape="rect" id="node8" href="$classSimpleVisualizer.html#aa2d3d7b0046fc273ec95720245df299a" title="Define SelectionSort." alt="" coords="1005,56,1231,83"/>
+<area shape="rect" id="node3" href="$classUserUI.html#a8dda3f31ae32252e0d34556506921ee6" title=" " alt="" coords="763,31,957,57"/>
+<area shape="rect" id="node4" href="$classUserUI.html#a0004a260d6bbdb2eec7079f7b1c1bda5" title=" " alt="" coords="528,31,715,57"/>
+<area shape="rect" id="node5" href="$classUserUI.html#a8ef1f93fb4e43aa9dbbcb551903d6477" title=" " alt="" coords="293,31,480,57"/>
+<area shape="rect" id="node6" href="$classUserUI.html#ae903f4766c81600f0f107f70450f380e" title=" " alt="" coords="108,31,245,57"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
+</map>

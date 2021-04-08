@@ -1,0 +1,10 @@
+<map id="SimpleVisualizer::AddNode" name="SimpleVisualizer::AddNode">
+<area shape="rect" id="node1" title="Add nodes to each list in each bucket." alt="" coords="1533,5,1732,32"/>
+<area shape="rect" id="node2" href="$classSimpleVisualizer.html#a01cbfb5462a35fc303dffd526ef77b8c" title="Add element to the bucket." alt="" coords="1263,5,1485,32"/>
+<area shape="rect" id="node3" href="$classSimpleVisualizer.html#a1904e22e4211904ae81dde8431fd0195" title="Define BucketSort." alt="" coords="1005,5,1215,32"/>
+<area shape="rect" id="node4" href="$classUserUI.html#a8dda3f31ae32252e0d34556506921ee6" title=" " alt="" coords="763,5,957,32"/>
+<area shape="rect" id="node5" href="$classUserUI.html#a0004a260d6bbdb2eec7079f7b1c1bda5" title=" " alt="" coords="528,5,715,32"/>
+<area shape="rect" id="node6" href="$classUserUI.html#a8ef1f93fb4e43aa9dbbcb551903d6477" title=" " alt="" coords="293,5,480,32"/>
+<area shape="rect" id="node7" href="$classUserUI.html#ae903f4766c81600f0f107f70450f380e" title=" " alt="" coords="108,5,245,32"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

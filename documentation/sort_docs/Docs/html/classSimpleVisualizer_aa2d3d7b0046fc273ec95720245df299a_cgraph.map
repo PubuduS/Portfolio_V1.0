@@ -1,0 +1,5 @@
+<map id="SimpleVisualizer::SelectionSort" name="SimpleVisualizer::SelectionSort">
+<area shape="rect" id="node1" title="Define SelectionSort." alt="" coords="5,31,231,57"/>
+<area shape="rect" id="node2" href="$classSimpleVisualizer.html#adf924d056e755fe59aa35acd9cb690e3" title="Draws sorting process for algorithms that doesn&#39;t require additional space. Eg: BubbleSort,..." alt="" coords="292,5,500,32"/>
+<area shape="rect" id="node3" href="$classSimpleVisualizer.html#a3145aa8a77f3061d9ac54bbc3014f696" title="Swap two elements." alt="" coords="279,56,513,83"/>
+</map>

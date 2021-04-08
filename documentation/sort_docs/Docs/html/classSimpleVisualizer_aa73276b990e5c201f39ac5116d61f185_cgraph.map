@@ -1,0 +1,4 @@
+<map id="SimpleVisualizer::InsertionSort" name="SimpleVisualizer::InsertionSort">
+<area shape="rect" id="node1" title="Define InsertionSort." alt="" coords="5,5,228,32"/>
+<area shape="rect" id="node2" href="$classSimpleVisualizer.html#adf924d056e755fe59aa35acd9cb690e3" title="Draws sorting process for algorithms that doesn&#39;t require additional space. Eg: BubbleSort,..." alt="" coords="276,5,484,32"/>
+</map>

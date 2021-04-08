@@ -1,0 +1,4 @@
+<map id="SimpleVisualizer::DrawBucketSort" name="SimpleVisualizer::DrawBucketSort">
+<area shape="rect" id="node1" title="Draw the original unsorted array for the bucket sort." alt="" coords="5,5,248,32"/>
+<area shape="rect" id="node2" href="$classSimpleVisualizer.html#a7f52c551a74028aab16c29cff8a665c2" title="Draw the bucket." alt="" coords="296,5,513,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UserUI::ChoosenAlgorithm" name="UserUI::ChoosenAlgorithm">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,200,83"/>
+<area shape="rect" id="node2" href="$classSorting.html#a3b5411931d55a9233eec9bae665685a8" title="FUNCTION &lt;BubbleSort()&gt; ***." alt="" coords="256,5,403,32"/>
+<area shape="rect" id="node4" href="$classSorting.html#addf3e6f96f5de2e4baa492f44d10f320" title="FUNCTION &lt;InsertionSort()&gt; ***." alt="" coords="250,56,409,83"/>
+<area shape="rect" id="node5" href="$classSorting.html#af290ae6177a0edd5c76339bc44ecf0e2" title="FUNCTION &lt;SelectionSort()&gt; ***." alt="" coords="248,107,411,133"/>
+<area shape="rect" id="node3" href="$classSorting.html#ab6032a9f15e9ad4769cf0b98f0bc24ae" title="FUNCTION &lt;SwapElements()&gt; const ***." alt="" coords="459,56,631,83"/>
+</map>

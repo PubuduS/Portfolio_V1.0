@@ -1,0 +1,5 @@
+<map id="SimpleVisualizer::AddToBucket" name="SimpleVisualizer::AddToBucket">
+<area shape="rect" id="node1" title="Add element to the bucket." alt="" coords="5,31,228,57"/>
+<area shape="rect" id="node2" href="$classSimpleVisualizer.html#ae577086c8773c6472c98f497448fd1f3" title="Add nodes to each list in each bucket." alt="" coords="286,5,485,32"/>
+<area shape="rect" id="node3" href="$classSimpleVisualizer.html#a56ef3320e64bcd015bf30b23cb20d6ed" title="Draw the list in each buckert. Need to improve this in future." alt="" coords="276,56,495,83"/>
+</map>

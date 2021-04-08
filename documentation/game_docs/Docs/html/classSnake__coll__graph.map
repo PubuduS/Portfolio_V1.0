@@ -1,0 +1,6 @@
+<map id="Snake" name="Snake">
+<area shape="rect" id="node1" title=" " alt="" coords="167,95,229,121"/>
+<area shape="rect" id="node2" href="$classGameGenerics.html" title=" " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node3" href="$structSnake_1_1Fruit.html" title="Structure to holds x and y cordinates of the fruit." alt="" coords="149,5,247,32"/>
+<area shape="rect" id="node4" href="$structSnake_1_1SnakeStrct.html" title="Structure to holds x and y cordinates of the snake when it move across the grid." alt="" coords="271,5,410,32"/>
+</map>
