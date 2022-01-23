@@ -336,6 +336,12 @@
     text-align: right
 }
 
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+#coverLMenu {
+    display:none !important;
+   }
+}
+
 @media only screen and (max-width: 991px) {
     .main-timeline .date-content {
         margin-top: 35px

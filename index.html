@@ -64,6 +64,10 @@
               <a class="nav-link" href="resume/PWijesooriya_Resume.pdf" target="_blank"> RESUME </a>
             </li>
 
+            <li class="nav-item" id="coverLMenu">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"> COVER LETTER </a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="#contact"> CONTACT </a>
             </li>
@@ -230,7 +234,7 @@
         <div class="container">
 
           <div class="main-timeline">
-		  
+
             <!-- start experience section-->
             <div class="timeline">
               <div class="icon"></div>
@@ -275,7 +279,7 @@
               </div>
             </div>
             <!-- end experience section-->
-			
+
             <!-- start experience section-->
             <div class="timeline">
               <div class="icon"></div>
@@ -440,13 +444,13 @@
           <h2> SOME OF MY PROJECTS </h2>
           <hr class="skill-line portfolio-line">
         </div>
-		
+
         <div class="project project-mr-gait col-lg-3 col-md-6">
           <a class="btn" data-bs-toggle="collapse" href="#gait-desc" role="button" aria-expanded="false" aria-controls="gait-desc"><i class="fas fa-vr-cardboard fa-4x btn-bounce"></i></a>
           <h5>Mixed Reality Gait Trainer</h5>
           <p>A gait trainer application for Microsoft HoloLens 2.</p>
         </div>
-		
+
         <div class="project project-tacacs col-lg-3 col-md-6">
           <a class="btn" data-bs-toggle="collapse" href="#tacacs-desc" role="button" aria-expanded="false" aria-controls="tacacs-desc"><i class="fas fa-server fa-4x btn-bounce"></i></a>
           <h5>Centerlized Server</h5>
@@ -488,7 +492,7 @@
           <h5>Inventory Control System</h5>
           <p>A small inventory control system. </p>
         </div>
-		
+
         <!-- Gait Description -->
         <div class="collapse" id="gait-desc">
 
@@ -518,7 +522,7 @@
                   </i>
                 </a>
               </div>
-			  
+
               <div class="col-lg-3 col-md-3 col-sm-3">
                 <a class="btn btn-dark btn-project" href="https://pubudus.github.io/Gait_Training/" target="_blank" role="button">
                   <i class="fas fa-file-alt">
@@ -537,7 +541,7 @@
             </p>
           </div>
         </div>
-		
+
         <!-- Tacacs Description -->
         <div class="collapse" id="tacacs-desc">
 
@@ -866,7 +870,7 @@
 			  <h6 class="edu-h6"></h6>
 			</div>
 		</div>
-		
+
         <div class="sdsu">
 
           <div class="college-info">
@@ -1020,6 +1024,54 @@
 
       </div>
 
+    </div>
+
+  </section>
+
+  <!-- Cover letter section starts here -->
+  <section class="coverl" id="covergen">
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cover Letter Generator</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="manager-name" class="col-form-label">Manager Name:</label>
+                <input type="text" class="form-control" id="manager-name">
+              </div>
+              <div class="mb-3">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Please select</option>
+                  <option value="1" selected>Software Engineer</option>
+                  <option value="2">Junior Software Engineer</option>
+                  <option value="3">Software Engineer Intern</option>
+                  <option value="4">Associate Software Engineer Intern</option>
+                  <option value="5">Software Developer</option>
+                  <option value="6">Software Developer Intern</option>
+                  <option value="7">C++ Developer</option>
+                  <option value="8">Java Developer</option>
+                  <option value="9">Mixed Reality Developer</option>
+                  <option value="10">Junior Game Developer</option>
+                  <option value="11">Game Developer</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="company-name" class="col-form-label">Company Name:</label>
+                <input type="text" class="form-control" id="company-name">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Generate</button>
+          </div>
+        </div>
+      </div>
     </div>
 
   </section>
