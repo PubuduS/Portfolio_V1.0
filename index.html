@@ -1048,10 +1048,11 @@
             <form>
               <div class="mb-3">
                 <label for="manager-name" class="col-form-label">Manager Name:</label>
-                <input type="text" class="form-control" id="manager-name">
+                <input type="text" class="form-control" id="manager-name" onkeyup="allLetter(this)">
+                <div id="managerHelp" class="form-text">If manager name is unknown leave it empty.</div>
               </div>
               <div class="mb-3">
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select" aria-label="Default select example" id="position-name">
                   <option selected>Please select</option>
                   <option value="1" selected>Software Engineer</option>
                   <option value="2">Junior Software Engineer</option>
@@ -1068,14 +1069,16 @@
               </div>
               <div class="mb-3">
                 <label for="company-name" class="col-form-label">Company Name:</label>
-                <input type="text" class="form-control" id="company-name">
+                <input type="text" class="form-control" id="company-name" required>
               </div>
             </form>
           </div>
+
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary" onclick="generate()">Generate</button>
           </div>
+
         </div>
       </div>
     </div>
@@ -1148,14 +1151,19 @@
      ></script>
  <![endif]-->
  <script>
-     function loadFile(url, callback) {
+     function loadFile(url, callback)
+     {
          PizZipUtils.getBinaryContent(url, callback);
      }
-     function generate() {
+
+     function generate()
+     {
          loadFile(
              "resume/PubuduCoverLetter.docx",
-             function (error, content) {
-                 if (error) {
+             function (error, content)
+             {
+                 if (error)
+                 {
                      throw error;
                  }
                  var zip = new PizZip(content);
@@ -1164,12 +1172,22 @@
                      linebreaks: true,
                  });
 
+                var managerName = document.getElementById('manager-name').value;
+                var positionIndex = document.getElementById('position-name');
+                var positionName = positionIndex.options[positionIndex.selectedIndex].text;
+                var companyName = document.getElementById('company-name').value;
+
+                if(managerName === '')
+                {
+                  managerName = "Hiring Manager";
+                }
+
                  // Render the document (Replace {first_name} by John, {last_name} by Doe, ...)
                  doc.render({
-                     Date: "01/23/2022",
-                     Manager: "John Doe",
-                     Position: "Software Engineer",
-                     Company: "Egal Creek",
+                     Date: getDate(),
+                     Manager: managerName,
+                     Position: positionName,
+                     Company: companyName,
                  });
 
                  var out = doc.getZip().generate({
@@ -1181,10 +1199,32 @@
                      compression: "DEFLATE",
                  });
                  // Output the document using Data-URI
-                 saveAs(out, "output.docx");
+                 saveAs(out, "PWijesooriya_Cover_Letter.docx");
              }
          );
      }
+
+     function getDate()
+     {
+       var today = new Date();
+       var day = String(today.getDate()).padStart(2, '0');
+       // January is 0
+       var month = String(today.getMonth() + 1).padStart(2, '0');
+       var year = today.getFullYear();
+
+       today = month + '/' + day + '/' + year;
+       return today;
+     }
+
+     function allLetter(inputTxt)
+     {
+         var letters = /^[a-z]*$/i;
+         if (!inputTxt.value.match(letters))
+         {
+             alert('Please input letters only');
+         }
+     }
+
  </script>
 
 </html>
