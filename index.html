@@ -1,386 +1,851 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Pubudu Wijesooriya">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Pubudu Wijesooriya" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Pubudu Wijesooriya</title>
 
     <!-- Css Files -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/png" />
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/slick-slider.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/t-scroll.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/slick-slider.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/t-scroll.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
   </head>
   <body>
-
     <!--// Main Wrapper \\-->
     <div class="pw-main-wrapper">
+      <!--// Header \\-->
+      <header id="pw-header" class="pw-header-wrap d-flex">
+        <a href="index.html" class="logo mr-auto"
+          ><img src="images/footer-logo.svg" alt="logo"
+        /></a>
+        <nav class="navbar navbar-expand-lg">
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#section_1" data-scroll="home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section_2" data-scroll="about"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section_3" data-scroll="skills"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section_4" data-scroll="experience"
+                  >Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section_5" data-scroll="protfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section_6" data-scroll="education"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="resume/PWijesooriya_Resume.pdf"
+                  target="_blank"
+                  >Resume</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  href="javascript:void(0)"
+                  >Cover Letter</a
+                >
+              </li>
+              <li class="nav-item contact">
+                <a class="header-btn bottom-scroll" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <a href="#contact" class="header-btn ml-auto bottom-scroll">Contact</a>
+      </header>
+      <!--// Header \\-->
 
-        <!--// Header \\-->
-        <header id="pw-header" class="pw-header-wrap d-flex">
-            <a href="index.html" class="logo mr-auto"><img src="images/footer-logo.svg" alt="logo"></a>
-            <nav class="navbar navbar-expand-lg">
-              <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fa fa-bars"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#section_1" data-scroll="home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#section_2" data-scroll="about">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#section_3" data-scroll="skills">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#section_4" data-scroll="experience">Experience</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#section_5" data-scroll="protfolio">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#section_6" data-scroll="education">Education</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="resume/PWijesooriya_Resume.pdf" target="_blank">Resume</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="javascript:void(0)">Cover Letter</a>
-                  </li>
-                  <li class="nav-item contact">
-                    <a class="header-btn bottom-scroll" href="#contact">Contact</a>
-                  </li>
-                </ul>
+      <!--// Header \\-->
+      <div class="banner" id="section_1" data-anchor="home">
+        <img
+          src="images/banner1.gif"
+          alt="banner"
+          style="display: none"
+          id="first"
+        />
+        <img
+          src="images/banner2.gif"
+          alt="banner"
+          style="display: none"
+          id="second"
+        />
+        <img
+          src="images/banner3.gif"
+          alt="banner"
+          style="display: none"
+          id="third"
+        />
+      </div>
+      <!--// Header \\-->
+
+      <!--// Main Content \\-->
+      <div class="pw-main-content">
+        <!--// Main Section \\-->
+        <div
+          class="pw-main-section about-full"
+          id="section_2"
+          data-anchor="about"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <figure class="about-img">
+                  <img src="images/about.jpg" alt="about-img" />
+                </figure>
               </div>
-            </nav>
-            <a href="#contact" class="header-btn ml-auto bottom-scroll">Contact</a>
-        </header>
-        <!--// Header \\-->
-
-        <!--// Header \\-->
-        <div class="banner" id="section_1" data-anchor="home">
-          <img src="images/banner1.gif" alt="banner" style="display: none;" id="first">
-          <img src="images/banner2.gif" alt="banner" style="display: none;" id="second">
-          <img src="images/banner3.gif" alt="banner" style="display: none;" id="third">
+              <div class="col-md-8">
+                <div class="about-text">
+                  <h2>ABOUT ME</h2>
+                  <p>
+                    My name is Pubudu. Currently, I live in Omaha, Nebraska. I
+                    enjoy building software, games, and websites. My interest in
+                    software engineering started back in 2012 when I decided to
+                    attend a code camp. - After that, I decided to pursue my
+                    higher education in the US.
+                  </p>
+                  <p>
+                    Fast forward to today, I've had the privilege of working at
+                    A corporation, a charitable organization, and a small
+                    business. I graduated from the University of Omaha at
+                    Nebraska with a MSc in Computer Science in May 2023.
+                  </p>
+                  <p>
+                    After graduation, I joined a team of amazing people in
+                    Election Systems and Software. Need something built or
+                    simply want to have chat? Reach out to me on social media or
+                    send me an email.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="about-text about-text-list fadeUp" data-t-show="3">
+                  <h3>My Personal Interests</h3>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p>
+                        When I'm not coding my next project, I enjoy spending my
+                        time doing any on the following:
+                      </p>
+                      <ul class="list-style-one">
+                        <li>
+                          I love Cooking. I love to create Asian American fusion
+                          dishes.
+                        </li>
+                        <li>
+                          I'm a bookworm and fan of Philosophy, Science Fiction,
+                          Fictional, and Mystery genre.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="list-style-one">
+                        <li>
+                          I'm an avid fan of video games. Currently, I'm playing
+                          Apex Legends. If you're interested you can see my
+                          gameplays
+                          <a
+                            href="https://www.youtube.com/watch?v=wX4gqdt23Ow"
+                            target="_blank"
+                            >here.</a
+                          >
+                        </li>
+                        <li>
+                          I'm eager to learn new technologies and new skills.
+                        </li>
+                        <li>I enjoy playing Chess.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!--// Header \\-->
+        <!--// Main Section \\-->
 
-        <!--// Main Content \\-->
-        <div class="pw-main-content">
-
-            <!--// Main Section \\-->
-            <div class="pw-main-section about-full" id="section_2" data-anchor="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <figure class="about-img">
-                                <img src="images/about.jpg" alt="about-img">
-                            </figure>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="about-text">
-                                <h2>ABOUT ME</h2>
-                                <p>My name is Pubudu. Currently, I live in Omaha, Nebraska. I enjoy building software, games, and websites. My interest in software engineering started back in 2012 when I decided to attend a code camp. - After that, I decided to pursue my higher education in the US.</p>
-                                <p>Fast forward to today, I've had the privilege of working at A corporation, a charitable organization, and a small business. I graduated from the University of Omaha at Nebraska with a MSc in Computer Science in May 2023.</p>
-                                <p>After graduation, I joined a team of amazing people in Election Systems and Software. Need something built or simply want to have chat? Reach out to me on social media or send me an email.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="about-text about-text-list fadeUp" data-t-show="3">
-                                <h3>My Personal Interests</h3>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <p>When I'm not coding my next project, I enjoy spending my time doing any on the following:</p>
-                                        <ul class="list-style-one">
-                                            <li>I love Cooking. I love to create Asian American fusion dishes.</li>
-                                            <li>I'm a bookworm and fan of Philosophy, Science Fiction, Fictional, and Mystery genre.</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <ul class="list-style-one">
-                                            <li>I'm an avid fan of video games. Currently, I'm playing Apex Legends. If you're interested you can see my gameplays <a href="https://www.youtube.com/watch?v=wX4gqdt23Ow" target="_blank">here.</a></li>
-                                            <li>I'm eager to learn new technologies and new skills.</li>
-                                            <li>I enjoy playing Chess.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <!--// Main Section \\-->
+        <div
+          class="pw-main-section skills-full"
+          id="section_3"
+          data-anchor="skills"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2>TECHNICAL SKILLS</h2>
+                  <p>
+                    I've worked with wide variety of programming languages. Here
+                    are a few technologies I've been working recently.
+                  </p>
                 </div>
-            </div>
-            <!--// Main Section \\-->
-
-            <!--// Main Section \\-->
-            <div class="pw-main-section skills-full" id="section_3" data-anchor="skills">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title">
-                                <h2>TECHNICAL SKILLS</h2>
-                                <p>I've worked with wide variety of programming languages. Here are a few technologies I've been working recently.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-5 fadeLeft" data-t-show="3">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="skillst">
-                                        <h6>C++</h6>
-                                        <div class="progressbar1" data-width="70" data-target="60"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-5">
-                                    <div class="skillst">
-                                        <h6>JAVA</h6>
-                                        <div class="progressbar1" data-width="50" data-target="60"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="skillst">
-                                        <h6>CSS</h6>
-                                        <div class="progressbar1" data-width="40" data-target="60"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-5">
-                                    <div class="skillst">
-                                        <h6>HTML</h6>
-                                        <div class="progressbar1" data-width="60" data-target="60"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="skillst">
-                                        <h6>AWS</h6>
-                                        <div class="progressbar1" data-width="20" data-target="60"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2"></div>
-                                <div class="col-md-5">
-                                    <div class="skillst">
-                                        <h6>C#</h6>
-                                        <div class="progressbar1" data-width="50" data-target="60"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-1"></div>
-                        <div class="col-md-6 fadeRight" data-t-show="3">
-                            <div class="text-skills">
-                                <h3>MOST FREQUENTLY USED TOOLS</h3>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h4>FRAMEWORKS AND ENGINES</h4>
-                                        <ul class="list-style-two list-style-one">
-                                            <li>Unity Engine</li>
-                                            <li>MRTK</li>
-                                            <li>Bootstrap</li>
-                                            <li>Unreal</li>
-                                            <li>STL</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h4>SOFTWARE</h4>
-                                        <ul class="list-style-two list-style-one">
-                                            <li>Windows(10) & Linux(Ubuntu)</li>
-                                            <li>Git & Subversion</li>
-                                            <li>Doxygen</li>
-                                            <li>SQLite</li>
-                                            <li>Jira</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+              </div>
+              <div class="col-md-5 fadeLeft" data-t-show="3">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="skillst">
+                      <h6>C++</h6>
+                      <div
+                        class="progressbar1"
+                        data-width="70"
+                        data-target="60"
+                      ></div>
                     </div>
-                </div>
-            </div>
-            <!--// Main Section \\-->
-
-            <!--// Main Section \\-->
-            <div class="pw-main-section tabs-wrapperfull" id="section_4" data-anchor="experience">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title">
-                                <h2>WORK EXPERIENCE</h2>
-                            </div>
-                            <div class="tabs-wrapper fadeIn" data-t-show="3">
-                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-								  <a class="nav-link active" id="v-pills-election-tab" data-toggle="pill" href="#v-pills-election" role="tab" aria-controls="v-pills-election" aria-selected="true">Election Systems and Software</a>
-                                  <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">University of Nebraska Omaha</a>
-                                  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Sencore.Inc</a>
-                                  <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Peace Lutheran Early Childhood Center</a>
-                                  <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Student Worker Larson Commons</a>
-                                  <a class="nav-link" id="v-pills-setting-tab" data-toggle="pill" href="#v-pills-setting" role="tab" aria-controls="v-pills-setting" aria-selected="false">Java Institute</a>
-                                </div>
-                                <div class="tab-content" id="v-pills-tabContent">
-								  <div class="tab-pane fade show active" id="v-pills-election" role="tabpanel" aria-labelledby="v-pills-election-tab">
-                                      <h3>Election Systems and Software</h3>
-                                      <span>2023 - Present</span>
-                                      <p>I joined Election Systems and Software in September 2023 and feel fortunate to be part of an outstanding team of experts in various domains of software engineering. It has been a great learning experience for me to integrate my knowledge of back-end embedded programming with the new front-end technologies I've acquired since joining Election Systems. Currently, I am working with a team of 10 engineers on updating a legacy product line.</p>
-                                      <ul class="list-style-one">
-                                          <li>Utilized the latest Angular version 16.2, incorporating features like RxJs, Nx, NgRx, and Typescript for a comprehensive UI overhaul.</li>
-                                          <li>Implemented a Jenkins Pipeline and integrated CompoDoc for automatic documentation.</li>
-                                          <li>Updated bash and Yocto recipes to seamlessly build and link the new UI, along with generating documentation for these changes.</li>
-                                          <li>Created technical documentation with confulence.</li>
-										  <li>Provided technical and site support for the 2023 General Election in New Jersey.<li>
-                                          <li>Utilized <b>Git</b> and <b>Jenkins</b> for version control and CICD Pipeline; <b>C#, C++, Typescript, .NET, Angular, NgRx, RxJs, Yocto</b> and <b>Visual Studio</b> and <b>Nx Workspace</b> for variety of projects; <b>Doxygen, CompoDoc</b> and <b>JIRA</b> to generate documentation and management of the software development life cycle.</li>
-                                      </ul>
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                      <h3>Graduate Research Assistant University of Nebraska Omaha</h3>
-                                      <span>2021 - 2023 (2 Years)</span>
-                                      <p>Designed and developed a HoloLens 2 Mixed Reality application that provides gait training for patients with gait disorders.</p>
-                                      <ul class="list-style-one">
-                                          <li>The application analyzes the environment around the user and spawns an avatar that can intelligently navigate around the environment. When the user follows the avatar, the system analyzes the user's walking pattern and assigned a score. Based on the score, it can early identify neural and motor-related disorders and also can help the user with gait training.</li>
-                                          <li>This project is a massive collaborative project with multiple departments including medical science, biomechanics, and computer science with over millions of funding (Award Number: P20GM109090)</li>
-                                          <li>Translated and optimized algorithms written in Matlab to C# and evaluate the accuracy.</li>
-                                          <li>Created a dev journal and extensive technical documentation for future open source development.</li>
-                                          <li>Awarded <b>$5000</b> Graduate Research and Creative Activity(GRACA) fellowship of the University of Nebraska at Omaha for Summer 2022.</li>
-                                          <li>Utilized <b>Git, Github Actions</b> and <b>Jenkins with AWS S3 Bucket</b> for version control and CICD Pipeline; <b>C#, Unity, MRTK</b> and <b>Visual Studio</b> to create MR application for HoloLens 2; <b>Doxygen and JIRA</b> to generate documentation and management of the software development life cycle.</li>
-                                      </ul>
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                                      <h3>Software Engineer (C++) Sencore.Inc</h3>
-                                      <span>2019 - 2021 (1.5 Years)</span>
-                                      <p>Contributed to the development and optimization of Sencore MRD5800 and MRD7000 advanced modular decoder product lines, as well as associated sub-brands.</p>
-                                      <ul class="list-style-one">
-                                          <li>Engineered and implemented a centralized authentication system using TACACS+ and PAM modules for MRD5800 unit and sub brands; enabling units to connect to centralized remote authentication server to grant access and perform AAA functionalities.</li>
-                                          <li>Programmed a portable Java Auditor software to parse through frequencies and log matrices into a CSV file for each channel.</li>
-                                          <li>Evaluated a legacy codebase to identify inefficiencies and integrate enhancements.</li>
-                                          <li>Utilized a wide variety of technologies throughout operations, including <b>C++, JIRA, Visual Studio Code, Git, Gerrit, PAM, TACACS+, SCons build system, Subversion, JS, ARM AT91 Micro-controllers, Debian GNU/Linux, TeamCity, MIBs, Java SE 8, Netbeans and cURL, Cross-Compilation, Bash, and Doxygen;</b></li>
-                                          <li>Utilized <b>Git, Subversion</b> and <b>Gerrit</b> for version control and code review; <b>Python, Scons, Bash</b> and <b>Teamcity</b> to cross-compilation and build system; <b>MIBs</b> to allow remote configurations of the settings; <b>JAVA SE 8, Netbeans</b> and <b>cURL</b> to create auditor software; <b>Doxygen</b> to generate documentation of the software.</li>
-                                      </ul>
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                                      <h3><a target="_blank" href="http://www.peacebrookings.org/">Peace Lutheran Early Childhood Center.</a></h3>
-                                      <span>2018 - 2019 (1 Years)</span>
-                                      <p>This is my senior capstone project for final year in South Dakota State University.</p>
-                                      <ul class="list-style-one">
-                                          <li>Assisted the Center with updating and maintaining their web software to effectively track the attendance of over 200 students and staff members.</li>
-                                          <li>Learned Agile development, reverse engineering, database normalization, OOP designing, and PHP in order to effectively complete tasks.</li>
-                                          <li>Created technical documents to monitor progress.</li>
-                                      </ul>
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                                      <h3>Student Worker Larson Commons</h3>
-                                      <span>2018 - 2019 (9 Months)</span>
-                                      <ul class="list-style-one">
-                                          <li>Liaised with colleagues to provide service in a timely manner to boost efficiency of dining hall operations.</li>
-                                          <li>Provided exceptional service to students and staff frequenting the dining hall.</li>
-                                          <li>Maintained consistent communications with colleagues and senior management to exchange updates on operations.</li>
-                                          <li>Learned to balance work duties with academic responsibilities.</li>
-                                      </ul>
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-setting" role="tabpanel" aria-labelledby="v-pills-setting-tab">
-                                    <h3>Software Engineer (JAVA) Java Institute</h3>
-                                    <span>2014 - 2015 (1 Years)</span>
-                                    <p>Engineered an inventory control software for Sapna, a small business in Sri Lanka, to streamline inventory management processes.</p>
-                                    <ul class="list-style-one">
-                                        <li>Identified and addressed common issues of low-level inventory control software, troubleshooting to resolve these issues and achieve full functionality.</li>
-                                        <li>Enhanced my working knowledge of SQL and Java tools, as well as OOP concepts, through completion of project tasks.</li>
-                                    </ul>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-5">
+                    <div class="skillst">
+                      <h6>JAVA</h6>
+                      <div
+                        class="progressbar1"
+                        data-width="50"
+                        data-target="60"
+                      ></div>
                     </div>
+                  </div>
                 </div>
-            </div>
-            <!--// Main Section \\-->
-
-            <!--// Main Section \\-->
-            <div class="pw-main-section featured-project-full">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title">
-                                <h2>Featured Projects</h2>
-                            </div>
-                            <div class="featured-project">
-                                <ul class="row">
-                                    <li class="col-md-12 fadeUp" data-t-show="3">
-                                        <figure>
-                                            <img src="images/project1.jpg" alt="img">
-                                            <figcaption>
-                                                <h3>Gait Trainer</h3>
-                                                <p>A mixed reality, cross-platform application that provides gait training to patients. </p>
-                                                <span>Tools: <strong>C#, Unity, Visual Studio, Doxygen, GitHub, GitHub Actions, Jenkins, AWS S3, GitHub pages, OpenXR, MRTK</strong></span>
-                                                <ul class="links">
-                                                    <li><a href="https://github.com/PubuduS/Gait_Training/tree/dev_followme" target="_blank"><img src="images/git.png" alt="git"></a></li>
-                                                    <li><a href="https://youtu.be/t9CPMqp_rRg" target="_blank"><img src="images/share.png" alt="share"></a></li>
-                                                    <li><a href="https://pubudus.github.io/Gait_Training/" target="_blank"><img src="images/file.png" alt="file"></a></li>
-                                                    <li><a href="images/screen_shots/mr_app_ss.png" target="_blank"><img src="images/cut.png" alt="cut"></a></li>
-                                                </ul>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                    <li class="col-md-12 fadeUp" data-t-show="3">
-                                        <figure>
-                                            <img src="images/project2.jpg" alt="img">
-                                            <figcaption>
-                                                <h3>2D Farming Game</h3>
-                                                <p>A simple pixel farming game similar to Stardew Valley.</p>
-                                                <span>Tools: <strong>C#, Unity, Visual Studio, Doxygen, GitHub, GitHub Actions, GitHub pages,</strong></span>
-                                                <ul class="links">
-                                                    <li><a href="https://github.com/PubuduS/Farming_RPG" target="_blank"><img src="images/git.png" alt="git"></a></li>
-                                                    <li><a href="https://studio.youtube.com/video/IkFDgCI8DBM/edit" target="_blank"><img src="images/share.png" alt="share"></a></li>
-                                                    <li><a href="https://pubudus.github.io/Farming_RPG/" target="_blank"><img src="images/file.png" alt="file"></a></li>
-                                                    <li><a href="images/screen_shots/farming_rpg_ss.png" target="_blank"><img src="images/cut.png" alt="cut"></a></li>
-                                                </ul>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                    <li class="col-md-12 fadeUp" data-t-show="3">
-                                        <figure>
-                                            <img src="images/project3.jpg" alt="img">
-                                            <figcaption>
-                                                <h3>A centralized server authentication login</h3>
-                                                <p>This feature provides centralized server-based authentication and login functionality for the Sencore MRD5800 product line and its sub-brands.</p>
-                                                <span>Tools: <strong>C++, Tacacs, HTML, CSS, Python, Scons, Bash, Git, Gerrit, Subversion, Teamcity, Jira</strong></span>
-                                                <ul class="links">
-                                                    <li><a class="disabled" href="https://github.com/PubuduS/" target="_blank"><img src="images/git.png" alt="git"></a></li>
-                                                    <li><a href="https://youtu.be/sx0_Yjl_cSQ" target="_blank"><img src="images/share.png" alt="share"></a></li>
-                                                    <li><a class="disabled" href="#" target="_blank"><img src="images/file.png" alt="file"></a></li>
-                                                    <li><a href="images/screen_shots/tacacs-ss.png" target="_blank"><img src="images/cut.png" alt="cut"></a></li>
-                                                </ul>
-                                            </figcaption>
-                                        </figure>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="skillst">
+                      <h6>CSS</h6>
+                      <div
+                        class="progressbar1"
+                        data-width="40"
+                        data-target="60"
+                      ></div>
                     </div>
+                  </div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-5">
+                    <div class="skillst">
+                      <h6>HTML</h6>
+                      <div
+                        class="progressbar1"
+                        data-width="60"
+                        data-target="60"
+                      ></div>
+                    </div>
+                  </div>
                 </div>
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="skillst">
+                      <h6>AWS</h6>
+                      <div
+                        class="progressbar1"
+                        data-width="20"
+                        data-target="60"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-5">
+                    <div class="skillst">
+                      <h6>C#</h6>
+                      <div
+                        class="progressbar1"
+                        data-width="50"
+                        data-target="60"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-6 fadeRight" data-t-show="3">
+                <div class="text-skills">
+                  <h3>MOST FREQUENTLY USED TOOLS</h3>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h4>FRAMEWORKS AND ENGINES</h4>
+                      <ul class="list-style-two list-style-one">
+                        <li>Unity Engine</li>
+                        <li>MRTK</li>
+                        <li>Bootstrap</li>
+                        <li>Unreal</li>
+                        <li>STL</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <h4>SOFTWARE</h4>
+                      <ul class="list-style-two list-style-one">
+                        <li>Windows(10) & Linux(Ubuntu)</li>
+                        <li>Git & Subversion</li>
+                        <li>Doxygen</li>
+                        <li>SQLite</li>
+                        <li>Jira</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!--// Main Section \\-->
+          </div>
+        </div>
+        <!--// Main Section \\-->
 
-            <!--// Main Section \\-->
-            <div class="pw-main-section projects-full" id="section_5" data-anchor="protfolio">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title">
-                                <h2>SOME OF MY PROJECTS</h2>
-                            </div>
-                            <div class="my-projects">
-                                <ul>
-                                    <!-- <li class="bounceOut" data-t-show="3">
+        <!--// Main Section \\-->
+        <div
+          class="pw-main-section tabs-wrapperfull"
+          id="section_4"
+          data-anchor="experience"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2>WORK EXPERIENCE</h2>
+                </div>
+                <div class="tabs-wrapper fadeIn" data-t-show="3">
+                  <div
+                    class="nav flex-column nav-pills"
+                    id="v-pills-tab"
+                    role="tablist"
+                    aria-orientation="vertical"
+                  >
+                    <a
+                      class="nav-link active"
+                      id="v-pills-election-tab"
+                      data-toggle="pill"
+                      href="#v-pills-election"
+                      role="tab"
+                      aria-controls="v-pills-election"
+                      aria-selected="true"
+                      >Election Systems and Software</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-pills-home-tab"
+                      data-toggle="pill"
+                      href="#v-pills-home"
+                      role="tab"
+                      aria-controls="v-pills-home"
+                      aria-selected="true"
+                      >University of Nebraska Omaha</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-pills-profile-tab"
+                      data-toggle="pill"
+                      href="#v-pills-profile"
+                      role="tab"
+                      aria-controls="v-pills-profile"
+                      aria-selected="false"
+                      >Sencore.Inc</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-pills-messages-tab"
+                      data-toggle="pill"
+                      href="#v-pills-messages"
+                      role="tab"
+                      aria-controls="v-pills-messages"
+                      aria-selected="false"
+                      >Peace Lutheran Early Childhood Center</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-pills-settings-tab"
+                      data-toggle="pill"
+                      href="#v-pills-settings"
+                      role="tab"
+                      aria-controls="v-pills-settings"
+                      aria-selected="false"
+                      >Student Worker Larson Commons</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-pills-setting-tab"
+                      data-toggle="pill"
+                      href="#v-pills-setting"
+                      role="tab"
+                      aria-controls="v-pills-setting"
+                      aria-selected="false"
+                      >Java Institute</a
+                    >
+                  </div>
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="v-pills-election"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-election-tab"
+                    >
+                      <h3>Election Systems and Software</h3>
+                      <span>2023 - Present</span>
+                      <p>
+                        I joined Election Systems and Software in September 2023
+                        and feel fortunate to be part of an outstanding team of
+                        experts in various domains of software engineering. It
+                        has been a great learning experience for me to integrate
+                        my knowledge of back-end embedded programming with the
+                        new front-end technologies I've acquired since joining
+                        Election Systems. Currently, I am working with a team of
+                        10 engineers on updating a legacy product line.
+                      </p>
+                      <ul class="list-style-one">
+                        <li>
+                          Utilized the latest Angular version 16.2,
+                          incorporating features like RxJs, Nx, NgRx, and
+                          Typescript for a comprehensive UI overhaul.
+                        </li>
+                        <li>
+                          Implemented a Jenkins Pipeline and integrated CompoDoc
+                          for automatic documentation.
+                        </li>
+                        <li>
+                          Updated bash and Yocto recipes to seamlessly build and
+                          link the new UI, along with generating documentation
+                          for these changes.
+                        </li>
+                        <li>
+                          Created technical documentation with confulence.
+                        </li>
+                        <li>
+                          Provided technical and site support for the 2023
+                          General Election in New Jersey.
+                        </li>
+                        <li></li>
+                        <li>
+                          Utilized <b>Git</b> and <b>Jenkins</b> for version
+                          control and CICD Pipeline;
+                          <b
+                            >C#, C++, Typescript, .NET, Angular, NgRx, RxJs,
+                            Yocto</b
+                          >
+                          and <b>Visual Studio</b> and <b>Nx Workspace</b> for
+                          variety of projects; <b>Doxygen, CompoDoc</b> and
+                          <b>JIRA</b> to generate documentation and management
+                          of the software development life cycle.
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-home"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-home-tab"
+                    >
+                      <h3>
+                        Graduate Research Assistant University of Nebraska Omaha
+                      </h3>
+                      <span>2021 - 2023 (2 Years)</span>
+                      <p>
+                        Designed and developed a HoloLens 2 Mixed Reality
+                        application that provides gait training for patients
+                        with gait disorders.
+                      </p>
+                      <ul class="list-style-one">
+                        <li>
+                          The application analyzes the environment around the
+                          user and spawns an avatar that can intelligently
+                          navigate around the environment. When the user follows
+                          the avatar, the system analyzes the user's walking
+                          pattern and assigned a score. Based on the score, it
+                          can early identify neural and motor-related disorders
+                          and also can help the user with gait training.
+                        </li>
+                        <li>
+                          This project is a massive collaborative project with
+                          multiple departments including medical science,
+                          biomechanics, and computer science with over millions
+                          of funding (Award Number: P20GM109090)
+                        </li>
+                        <li>
+                          Translated and optimized algorithms written in Matlab
+                          to C# and evaluate the accuracy.
+                        </li>
+                        <li>
+                          Created a dev journal and extensive technical
+                          documentation for future open source development.
+                        </li>
+                        <li>
+                          Awarded <b>$5000</b> Graduate Research and Creative
+                          Activity(GRACA) fellowship of the University of
+                          Nebraska at Omaha for Summer 2022.
+                        </li>
+                        <li>
+                          Utilized <b>Git, Github Actions</b> and
+                          <b>Jenkins with AWS S3 Bucket</b> for version control
+                          and CICD Pipeline; <b>C#, Unity, MRTK</b> and
+                          <b>Visual Studio</b> to create MR application for
+                          HoloLens 2; <b>Doxygen and JIRA</b> to generate
+                          documentation and management of the software
+                          development life cycle.
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-profile"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-profile-tab"
+                    >
+                      <h3>Software Engineer (C++) Sencore.Inc</h3>
+                      <span>2019 - 2021 (1.5 Years)</span>
+                      <p>
+                        Contributed to the development and optimization of
+                        Sencore MRD5800 and MRD7000 advanced modular decoder
+                        product lines, as well as associated sub-brands.
+                      </p>
+                      <ul class="list-style-one">
+                        <li>
+                          Engineered and implemented a centralized
+                          authentication system using TACACS+ and PAM modules
+                          for MRD5800 unit and sub brands; enabling units to
+                          connect to centralized remote authentication server to
+                          grant access and perform AAA functionalities.
+                        </li>
+                        <li>
+                          Programmed a portable Java Auditor software to parse
+                          through frequencies and log matrices into a CSV file
+                          for each channel.
+                        </li>
+                        <li>
+                          Evaluated a legacy codebase to identify inefficiencies
+                          and integrate enhancements.
+                        </li>
+                        <li>
+                          Utilized a wide variety of technologies throughout
+                          operations, including
+                          <b
+                            >C++, JIRA, JavaScript, Typescript, Angular, Node,
+                            Yarn, Grunt, GTest, Visual Studio Code, Virtual Box,
+                            Git, Gerrit, PAM, TACACS+, SCons build system,
+                            Subversion, JS, ARM AT91 Micro-controllers, Debian
+                            GNU/Linux, Yocto Linux, TeamCity, Jenkins, MIBs,
+                            Java SE 8, Netbeans and cURL, Bash, and Doxygen;</b
+                          >
+                        </li>
+                        <li>
+                          Utilized <b>Git, Subversion</b> and <b>Gerrit</b> for
+                          version control and code review;
+                          <b>Python, Scons, Bash</b> and <b>Teamcity</b> to
+                          cross-compilation and build system; <b>MIBs</b> to
+                          allow remote configurations of the settings;
+                          <b>JAVA SE 8, Netbeans</b> and <b>cURL</b> to create
+                          auditor software; <b>Doxygen</b> to generate
+                          documentation of the software.
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-messages"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-messages-tab"
+                    >
+                      <h3>
+                        <a target="_blank" href="http://www.peacebrookings.org/"
+                          >Peace Lutheran Early Childhood Center.</a
+                        >
+                      </h3>
+                      <span>2018 - 2019 (1 Years)</span>
+                      <p>
+                        This is my senior capstone project for final year in
+                        South Dakota State University.
+                      </p>
+                      <ul class="list-style-one">
+                        <li>
+                          Assisted the Center with updating and maintaining
+                          their web software to effectively track the attendance
+                          of over 200 students and staff members.
+                        </li>
+                        <li>
+                          Learned Agile development, reverse engineering,
+                          database normalization, OOP designing, and PHP in
+                          order to effectively complete tasks.
+                        </li>
+                        <li>
+                          Created technical documents to monitor progress.
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-settings"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-settings-tab"
+                    >
+                      <h3>Student Worker Larson Commons</h3>
+                      <span>2018 - 2019 (9 Months)</span>
+                      <ul class="list-style-one">
+                        <li>
+                          Liaised with colleagues to provide service in a timely
+                          manner to boost efficiency of dining hall operations.
+                        </li>
+                        <li>
+                          Provided exceptional service to students and staff
+                          frequenting the dining hall.
+                        </li>
+                        <li>
+                          Maintained consistent communications with colleagues
+                          and senior management to exchange updates on
+                          operations.
+                        </li>
+                        <li>
+                          Learned to balance work duties with academic
+                          responsibilities.
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-setting"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-setting-tab"
+                    >
+                      <h3>Software Engineer (JAVA) Java Institute</h3>
+                      <span>2014 - 2015 (1 Years)</span>
+                      <p>
+                        Engineered an inventory control software for Sapna, a
+                        small business in Sri Lanka, to streamline inventory
+                        management processes.
+                      </p>
+                      <ul class="list-style-one">
+                        <li>
+                          Identified and addressed common issues of low-level
+                          inventory control software, troubleshooting to resolve
+                          these issues and achieve full functionality.
+                        </li>
+                        <li>
+                          Enhanced my working knowledge of SQL and Java tools,
+                          as well as OOP concepts, through completion of project
+                          tasks.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Main Section \\-->
+
+        <!--// Main Section \\-->
+        <div class="pw-main-section featured-project-full">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2>Featured Projects</h2>
+                </div>
+                <div class="featured-project">
+                  <ul class="row">
+                    <li class="col-md-12 fadeUp" data-t-show="3">
+                      <figure>
+                        <img src="images/project1.jpg" alt="img" />
+                        <figcaption>
+                          <h3>Gait Trainer</h3>
+                          <p>
+                            A mixed reality, cross-platform application that
+                            provides gait training to patients.
+                          </p>
+                          <span
+                            >Tools:
+                            <strong
+                              >C#, Unity, Visual Studio, Doxygen, GitHub, GitHub
+                              Actions, Jenkins, AWS S3, GitHub pages, OpenXR,
+                              MRTK</strong
+                            ></span
+                          >
+                          <ul class="links">
+                            <li>
+                              <a
+                                href="https://github.com/PubuduS/Gait_Training/tree/dev_followme"
+                                target="_blank"
+                                ><img src="images/git.png" alt="git"
+                              /></a>
+                            </li>
+                            <li>
+                              <a
+                                href="https://youtu.be/t9CPMqp_rRg"
+                                target="_blank"
+                                ><img src="images/share.png" alt="share"
+                              /></a>
+                            </li>
+                            <li>
+                              <a
+                                href="https://pubudus.github.io/Gait_Training/"
+                                target="_blank"
+                                ><img src="images/file.png" alt="file"
+                              /></a>
+                            </li>
+                            <li>
+                              <a
+                                href="images/screen_shots/mr_app_ss.png"
+                                target="_blank"
+                                ><img src="images/cut.png" alt="cut"
+                              /></a>
+                            </li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li class="col-md-12 fadeUp" data-t-show="3">
+                      <figure>
+                        <img src="images/project2.jpg" alt="img" />
+                        <figcaption>
+                          <h3>2D Farming Game</h3>
+                          <p>
+                            A simple pixel farming game similar to Stardew
+                            Valley.
+                          </p>
+                          <span
+                            >Tools:
+                            <strong
+                              >C#, Unity, Visual Studio, Doxygen, GitHub, GitHub
+                              Actions, GitHub pages,</strong
+                            ></span
+                          >
+                          <ul class="links">
+                            <li>
+                              <a
+                                href="https://github.com/PubuduS/Farming_RPG"
+                                target="_blank"
+                                ><img src="images/git.png" alt="git"
+                              /></a>
+                            </li>
+                            <li>
+                              <a
+                                href="https://studio.youtube.com/video/IkFDgCI8DBM/edit"
+                                target="_blank"
+                                ><img src="images/share.png" alt="share"
+                              /></a>
+                            </li>
+                            <li>
+                              <a
+                                href="https://pubudus.github.io/Farming_RPG/"
+                                target="_blank"
+                                ><img src="images/file.png" alt="file"
+                              /></a>
+                            </li>
+                            <li>
+                              <a
+                                href="images/screen_shots/farming_rpg_ss.png"
+                                target="_blank"
+                                ><img src="images/cut.png" alt="cut"
+                              /></a>
+                            </li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                    </li>
+                    <li class="col-md-12 fadeUp" data-t-show="3">
+                      <figure>
+                        <img src="images/project3.jpg" alt="img" />
+                        <figcaption>
+                          <h3>A centralized server authentication login</h3>
+                          <p>
+                            This feature provides centralized server-based
+                            authentication and login functionality for the
+                            Sencore MRD5800 product line and its sub-brands.
+                          </p>
+                          <span
+                            >Tools:
+                            <strong
+                              >C++, Tacacs, HTML, CSS, Python, Scons, Bash, Git,
+                              Gerrit, Subversion, Teamcity, Jira</strong
+                            ></span
+                          >
+                          <ul class="links">
+                            <li>
+                              <a
+                                class="disabled"
+                                href="https://github.com/PubuduS/"
+                                target="_blank"
+                                ><img src="images/git.png" alt="git"
+                              /></a>
+                            </li>
+                            <li>
+                              <a
+                                href="https://youtu.be/sx0_Yjl_cSQ"
+                                target="_blank"
+                                ><img src="images/share.png" alt="share"
+                              /></a>
+                            </li>
+                            <li>
+                              <a class="disabled" href="#" target="_blank"
+                                ><img src="images/file.png" alt="file"
+                              /></a>
+                            </li>
+                            <li>
+                              <a
+                                href="images/screen_shots/tacacs-ss.png"
+                                target="_blank"
+                                ><img src="images/cut.png" alt="cut"
+                              /></a>
+                            </li>
+                          </ul>
+                        </figcaption>
+                      </figure>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Main Section \\-->
+
+        <!--// Main Section \\-->
+        <div
+          class="pw-main-section projects-full"
+          id="section_5"
+          data-anchor="protfolio"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2>SOME OF MY PROJECTS</h2>
+                </div>
+                <div class="my-projects">
+                  <ul>
+                    <!-- <li class="bounceOut" data-t-show="3">
                                         <a href="#oneModal" data-toggle="modal">
                                             <img src="images/p1.png" alt="project">
                                             <h3>Mixed Reality Gait Trainer</h3>
@@ -394,750 +859,1368 @@
                                             <p>A feature to add centralized server authentication functionality.</p>
                                         </a>
                                     </li> -->
-                                    <li class="bounceOut" data-t-show="4">
-                                        <a href="#threeModal" data-toggle="modal">
-                                            <img src="images/p3.png" alt="project">
-                                            <h3>Auditor Tool</h3>
-                                            <p>A helper tool for automate a tuning process in QAM.</p>
-                                        </a>
-                                    </li>
-                                    <li class="bounceOut" data-t-show="5">
-                                        <a href="#fourModal" data-toggle="modal">
-                                            <img src="images/p4.png" alt="project">
-                                            <h3>Retro GameBoy</h3>
-                                            <p>Developed a gameboy system with classic game collections.</p>
-                                        </a>
-                                    </li>
-                                    <li class="bounceOut" data-t-show="6">
-                                        <a href="#fiveModal" data-toggle="modal">
-                                            <img src="images/p5.png" alt="project">
-                                            <h3>Sorting Algorithm</h3>
-                                            <p>Developed a collection of sorting algorithem and a visualizer.</p>
-                                        </a>
-                                    </li>
-                                    <li class="bounceOut" data-t-show="7">
-                                        <a href="#sixModal" data-toggle="modal">
-                                            <img src="images/p6.png" alt="project">
-                                            <h3>My Portfolio</h3>
-                                            <p>Developed a portfolio with my bio.</p>
-                                        </a>
-                                    </li>
-                                    <li class="bounceOut" data-t-show="8">
-                                        <a href="#sevenModal" data-toggle="modal">
-                                            <img src="images/p7.png" alt="project">
-                                            <h3>Detective-Adventure</h3>
-                                            <p>Developed a small 2D unity game.</p>
-                                        </a>
-                                    </li>
-                                    <li class="bounceOut" data-t-show="9">
-                                        <a href="#eightModal" data-toggle="modal">
-                                            <img src="images/p8.png" alt="project">
-                                            <h3>Inventory Control System</h3>
-                                            <p>A small inventory control system.</p>
-                                        </a>
-                                    </li>
-                                    <li class="bounceOut" data-t-show="10">
-                                        <a href="#nineModal" data-toggle="modal">
-                                            <img src="images/p9.png" alt="project">
-                                            <h3>ETL to CSV Exporter</h3>
-                                            <p>Windows performance analyzer</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    <li class="bounceOut" data-t-show="4">
+                      <a href="#threeModal" data-toggle="modal">
+                        <img src="images/p3.png" alt="project" />
+                        <h3>Auditor Tool</h3>
+                        <p>
+                          A helper tool for automate a tuning process in QAM.
+                        </p>
+                      </a>
+                    </li>
+                    <li class="bounceOut" data-t-show="5">
+                      <a href="#fourModal" data-toggle="modal">
+                        <img src="images/p4.png" alt="project" />
+                        <h3>Retro GameBoy</h3>
+                        <p>
+                          Developed a gameboy system with classic game
+                          collections.
+                        </p>
+                      </a>
+                    </li>
+                    <li class="bounceOut" data-t-show="6">
+                      <a href="#fiveModal" data-toggle="modal">
+                        <img src="images/p5.png" alt="project" />
+                        <h3>Sorting Algorithm</h3>
+                        <p>
+                          Developed a collection of sorting algorithem and a
+                          visualizer.
+                        </p>
+                      </a>
+                    </li>
+                    <li class="bounceOut" data-t-show="7">
+                      <a href="#sixModal" data-toggle="modal">
+                        <img src="images/p6.png" alt="project" />
+                        <h3>My Portfolio</h3>
+                        <p>Developed a portfolio with my bio.</p>
+                      </a>
+                    </li>
+                    <li class="bounceOut" data-t-show="8">
+                      <a href="#sevenModal" data-toggle="modal">
+                        <img src="images/p7.png" alt="project" />
+                        <h3>Detective-Adventure</h3>
+                        <p>Developed a small 2D unity game.</p>
+                      </a>
+                    </li>
+                    <li class="bounceOut" data-t-show="9">
+                      <a href="#eightModal" data-toggle="modal">
+                        <img src="images/p8.png" alt="project" />
+                        <h3>Inventory Control System</h3>
+                        <p>A small inventory control system.</p>
+                      </a>
+                    </li>
+                    <li class="bounceOut" data-t-show="10">
+                      <a href="#nineModal" data-toggle="modal">
+                        <img src="images/p9.png" alt="project" />
+                        <h3>ETL to CSV Exporter</h3>
+                        <p>Windows performance analyzer</p>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
-            <!--// Main Section \\-->
-
-            <!--// Main Section \\-->
-            <div class="pw-main-section education-full" id="section_6" data-anchor="education">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title">
-                                <h2>EDUCATION AND CREDENTIALS</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-6 fadeLeft" data-t-show="3">
-                            <div class="uni-wrap">
-                                <h4>University of Nebraska at Omaha</h4>
-                                <p>2021 - 2023</p>
-                                <p>MASTER OF SCIENCE (M.SC.) IN COMPUTER SCIENCE</p>
-                                <p><span>GPA: <strong>3.952</strong></span><span>Awarded: <strong>GRACA grant</strong></span></p>
-                                <p><span>Credits: <strong>30/30</strong></span><span>Graduated: <strong>19th of May 2023</strong></span></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 fadeRight" data-t-show="3">
-                            <div class="uni-wrap">
-                                <h4>South Dakota State University</h4>
-                                <p>2016-2019</p>
-                                <p>BACHELOR OF SCIENCE (B.SC.) IN COMPUTER SCIENCE</p>
-                                <p><span>GPA: <strong>3.537</strong></span><span>Dean's List: <strong>Spring 2019</strong></span></p>
-                                <p><span>Credits: <strong>149/120</strong></span><span>Graduated: <strong>04th of May 2019</strong></span></p>
-                            </div>
-                        </div>
-                        <div class="col-md-12 fadeUp" data-t-show="3">
-                            <div class="education-table">
-                                <h2>Core Courses</h2>
-                                <div class="scrol-table">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Core CS</th>
-                                                <th>Software</th>
-                                                <th>Math</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Data Structures</td>
-                                                <td>Parallel Computing</td>
-                                                <td>Calculus I</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Assembly Language</td>
-                                                <td>Foundation on Software Engineering</td>
-                                                <td>Calculus II</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Computer Architecture</td>
-                                                <td>Object Oriented Programming</td>
-                                                <td>Linear Algebra and Proof</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>System Programming</td>
-                                                <td>Database Management</td>
-                                                <td>Discrete Mathematics</td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>Digital Systems</td>
-                                                <td>Software Project Management & Testing</td>
-                                                <td>Scientific Computations</td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>Programming Languages</td>
-                                                <td>Artificial Intelligence</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>7</td>
-                                                <td>Theory of Computation</td>
-                                                <td>Game Programming</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>8</td>
-                                                <td>Operating Systems</td>
-                                                <td>Software Ethics</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>9</td>
-                                                <td>Compiler Construction</td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <td>10</td>
-                                                <td>Scientific Computations</td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 fadeUp" data-t-show="3">
-                            <div class="uni-wrap high">
-                                <h4>American College of Higher Education associated with Broward College ( 2014-2016 )</h4>
-                                <p>2014-2016</p>
-                                <p>ASSOCIATE DEGREE IN COMPUTER SCIENCE</p>
-                                <p><span>GPA: <strong>3.84</strong></span><span>Dean's List: <strong>Fall 2014, Spring 2015, Fall 2015, Spring 2016</strong></span><span class="pice">President's List: <strong>Summer 2015</strong></span></p>
-                                <p><span>Credits: <strong>79/60</strong></span><span>Transfered to South Dakota State University in Fall 2016</span></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Main Section \\-->
-
-            <!--// Main Section \\-->
-            <div class="pw-main-section certifications-full">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title">
-                                <h2>Certifications</h2>
-                            </div>
-                            <div class="certifications-wrap">
-                                <ul class="row">
-                                  <li class="col-md-6 fadeRight" data-t-show="3">
-                                      <section>
-                                          <img src="images/certificate.png" alt="certification">
-                                          <h3>AWS Certified Cloud Practitioner</h3>
-                                          <p>Completed: In progress</p>
-                                          <p>Issuing Organization: Udemy</p>
-                                          <p>Credential ID: None</p>
-                                          <p>Certificate: <a href="https://www.coursera.org/account/accomplishments/certificate/R7P6PNDABS9V" target="_blank">Here</a></p>
-                                          <p>This is a introductory level course about AWS.</p>
-                                      </section>
-                                  </li>
-                                  <li class="col-md-6 fadeLeft" data-t-show="3">
-                                      <section>
-                                          <img src="images/certificate.png" alt="certification">
-                                          <h3>Modern C++ Multi-threading</h3>
-                                          <p>Completed: 04/26/2023</p>
-                                          <p>Issuing Organization: Udemy</p>
-                                          <p>Credential ID: e2be974d7844</p>
-                                          <p>Certificate: <a href="https://www.udemy.com/certificate/UC-ecab9d2a-2f1c-4eab-856c-e2be974d7844/" target="_blank">Here</a></p>
-                                          <p>This is an introductory course on modern C++ multi-threading capabilities.</p>
-                                      </section>
-                                  </li>
-                                    <li class="col-md-6 fadeLeft" data-t-show="3">
-                                        <section>
-                                            <img src="images/certificate.png" alt="certification">
-                                            <h3>Object Oriented Programming in Java</h3>
-                                            <p>Completed: 02/09/2020</p>
-                                            <p>Issuing Organization: Coursera</p>
-                                            <p>Credential ID: 64EPBBAFEWYL</p>
-                                            <p>Certificate: <a href="https://www.coursera.org/account/accomplishments/certificate/64EPBBAFEWYL" target="_blank">Here</a></p>
-                                            <p>This is a online Coursera course offered by University of California San Diego.</p>
-                                        </section>
-                                    </li>
-                                    <li class="col-md-6 fadeRight" data-t-show="3">
-                                        <section>
-                                            <img src="images/certificate.png" alt="certification">
-                                            <h3>Neural Network and Deep Learning</h3>
-                                            <p>Completed: 08/09/2019</p>
-                                            <p>Issuing Organization: Coursera</p>
-                                            <p>Credential ID: R7P6PNDABS9V</p>
-                                            <p>Certificate: <a href="https://www.coursera.org/account/accomplishments/certificate/R7P6PNDABS9V" target="_blank">Here</a></p>
-                                            <p>This is a introductory level course about deep learning.</p>
-                                        </section>
-                                    </li>
-                                    <li class="col-md-6 fadeLeft" data-t-show="4">
-                                        <section>
-                                            <img src="images/certificate.png" alt="certification">
-                                            <h3>Game Development with Unity</h3>
-                                            <p>Completed: In progress</p>
-                                            <p>Issuing Organization: Udemy</p>
-                                            <p>Credential ID: None</p>
-                                            <p>Certificate: Not yet complete</p>
-                                            <p>This is a introductory level course about 2D game development with C#.</p>
-                                        </section>
-                                    </li>
-                                    <li class="col-md-6 fadeRight" data-t-show="4">
-                                        <section>
-                                            <img src="images/certificate.png" alt="certification">
-                                            <h3>Web Development Bootcamp</h3>
-                                            <p>Completed: In progress</p>
-                                            <p>Issuing Organization: Udemy</p>
-                                            <p>Credential ID: None</p>
-                                            <p>Certificate: Not yet complete</p>
-                                            <p>This is a introductory level course about web development.</p>
-                                        </section>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Main Section \\-->
-
-            <!--// Main Section \\-->
-            <div class="pw-main-section get-in-touchfull" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="section-title">
-                                <h2>LET'S GET IN TOUCH</h2>
-                            </div>
-                        </div>
-                        <div class="col-md-5 fadeLeft" data-t-show="3">
-                            <div class="contact-detail">
-                                <p>Need anything build, want to work together, discuss about new opportunity or simply want to have a chat?</p>
-                                <p>Drop me an email at <a href="mailto:pubudusupun@gmail.com">pubudusupun@gmail.com</a> or simply fill out the form below and I will reply yo you soon!</p>
-                                <h2>Follow Me</h2>
-                                <ul class="social">
-                                    <li><a href="https://www.linkedin.com/in/pubudu-wijesooriya/" target="_blank" class="fa fa-linkedin"></a></li>
-                                    <li><a href="https://github.com/PubuduS/" target="_blank" class="fa fa-github"></a></li>
-                                    <li><a href="mailto:pubudusupun@gmail.com" class="fa fa-envelope"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-7 fadeRight" data-t-show="3">
-                            <div class="contact-form">
-                                <form action="">
-                                    <ul>
-                                        <li><input class="form-control" type="email" placeholder="Email Address"></li>
-                                        <li><input class="form-control" type="text" placeholder="Your Name"></li>
-                                        <li><textarea class="form-control" placeholder="Your Message"></textarea></li>
-                                        <li><input type="submit" class="submit-btn" value="Submit"></li>
-                                    </ul>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--// Main Section \\-->
-
-        </div>
-        <!--// Main Content \\-->
-
-<!-- Projects -->
-    <div class="modal fade projects-modal" id="oneModal" aria-labelledby="oneModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro1.jpg" alt="project">
-                </figure>
-                <section>
-                    <h3>Mixed Reality Gait Trainer</h3>
-                    <p>Designed and developed an <b>application</b> for HoloLens 2 which provides gait training to patients.</p>
-                    <p>Technologies: <b>C#, Unity ,Git, Github Actions, Jenkins, Jira, Doxygen</b></p>
-                    <ul class="links">
-                        <li><a href="https://github.com/PubuduS/Gait_Training/tree/dev_followme" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="https://youtu.be/yYSE6b71oOo" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="https://pubudus.github.io/Gait_Training/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Documentation"><img src="images/file.png" alt="file"></a></li>
-                        <li><a href="images/screen_shots/gait_demo-ss.png" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Screen Shot"><img src="images/cut.png" alt="cut"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade projects-modal" id="twoModal" aria-labelledby="twoModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro2.png" alt="project">
-                </figure>
-                <section>
-                    <h3>Centerlized Server</h3>
-                    <p>Developed a <b>feature</b> to add centralized server authentication login functionality for the Sencore MRD5800 product line and its sub-brands.</p>
-                    <p>Technologies: <b>C++, Tacacs ,HTML, CSS, Python, Scons, Bash, Git, Gerrit, Subversion, Teamcity, Jira</b></p>
-                    <ul class="links">
-                        <li><a  href="javascript:void(0)" class="disabled" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="https://youtu.be/sx0_Yjl_cSQ" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="images/screen_shots/tacacs-ss.PNG" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Screen Shot"><img src="images/cut.png" alt="cut"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade projects-modal" id="threeModal" aria-labelledby="threeModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro3.jpg" alt="project">
-                </figure>
-                <section>
-                    <h3>Auditor Tool</h3>
-                    <p>The Qam units use a bash script for the tunning process. This is a cumbersome process for windows users since they have to install Cygwin to run the bash script. I developed this <b>platform independence, portable</b> helper tool to ease up this process. This was designed to be <b>user-friendly</b> and it can be used by anyone without worrying about technical details.</p>
-                    <p>Technologies: <b>Java, XML, Netbeans, cURL, Bash, Git, Gerrit, Jira</b></p>
-                    <ul class="links">
-                        <li><a href="https://github.com/PubuduS/QAM-Auditor" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="https://youtu.be/dYWTHK3TkKU" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="images/screen_shots/qam-ss.PNG" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Screen Shot"><img src="images/cut.png" alt="cut"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade projects-modal" id="fourModal" aria-labelledby="fourModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro4.jpg" alt="project">
-                </figure>
-                <section>
-                    <h3>Retro GameBoy</h3>
-                    <p>Developed a gameboy system with classic game collections.</p>
-                    <p>Technologies: <b>C++, CMake, Git, SFML/Graphics, Jira, Doxygen</b></p>
-                    <ul class="links">
-                        <li><a href="https://github.com/PubuduS/RetroGameBoy" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="https://youtu.be/e3Lzqpv7jEE" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="documentation/game_docs/Docs/html/index.html" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Documentation"><img src="images/file.png" alt="file"></a></li>
-                        <li><a href="images/screen_shots/gameboy-ss.PNG" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Screen Shot"><img src="images/cut.png" alt="cut"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade projects-modal" id="fiveModal" aria-labelledby="fiveModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro5.jpg" alt="project">
-                </figure>
-                <section>
-                    <h3>Sorting Algorithm</h3>
-                    <p>Developed a collection of sorting algorithm templates alone with a visualizer to illustrate sorting algorithem behavior.</p>
-                    <p>Technologies: <b>C++, CMake, Scons, Git, Jira, Doxygen</b></p>
-                    <ul class="links">
-                        <li><a href="https://github.com/PubuduS/Sorting" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="https://youtu.be/OvTVbfHerwY" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="documentation/sort_docs/Docs/html/index.html" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Documentation"><img src="images/file.png" alt="file"></a></li>
-                        <li><a href="images/screen_shots/sorting-ss.PNG" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Screen Shot"><img src="images/cut.png" alt="cut"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade projects-modal" id="sixModal" aria-labelledby="sixModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro6.jpg" alt="project">
-                </figure>
-                <section>
-                    <h3>Portfolio Website</h3>
-                    <p>Developed a responsive portfolio. Hosted it on AWS with CDN functionality for minimum latency. Link it to GitHub workflow.</p>
-                    <p>Technologies: <b>HTML, CSS, Javascript, Git, AWS, CloudFront, Git Workflow</b></p>
-                    <ul class="links">
-                        <li><a href="https://github.com/PubuduS/Portfolio_V1.0" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="javascript:void(0)" class="disabled" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="javascript:void(0)" class="disabled" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Screen Shot"><img src="images/cut.png" alt="cut"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade projects-modal" id="sevenModal" aria-labelledby="sevenModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro7.jpg" alt="project">
-                </figure>
-                <section>
-                    <h3>Detective-Adventure</h3>
-                    <p>Developed a 2D RPG game using unity game engine.</p>
-                    <p>Technologies: <b>C#, Git</b></p>
-                    <ul class="links">
-                        <li><a href="https://github.com/PubuduS/Detective-Adventure-Beta" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="https://youtu.be/MhaBu72R1R4" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="images/screen_shots/detective-game.PNG" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Screen Shot"><img src="images/cut.png" alt="cut"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade projects-modal" id="eightModal" aria-labelledby="eightModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro8.jpg" alt="project">
-                </figure>
-                <section>
-                    <h3>Inventory Control System</h3>
-                    <p>Developed a small inventory control software for a small business.</p>
-                    <p>Technologies: <b>Java, Netbeans</b></p>
-                    <ul class="links">
-                        <li><a href="javascript:void(0)" class="disabled" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="javascript:void(0)" class="disabled" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="images/screen_shots/sapna-ss.png" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Screen Shot"><img src="images/cut.png" alt="cut"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="modal fade projects-modal" id="nineModal" aria-labelledby="nineModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="project-mod">
-                <figure>
-                    <img src="images/pro9.jpg" alt="project">
-                </figure>
-                <section>
-                    <h3>ETL to CSV Exporter</h3>
-                    <p>This helper tool is designed to export windows performance analyzer .etl trace files to CSV format. The user has to enter the .etl file directory and then choose from the 4 profiles (CPU, GPU, Memory, Storage). Then, the system will iteratively export all the data in CSV format.</p>
-                    <p>Technologies: <b>Java, Netbeans, Github</b></p>
-                    <ul class="links">
-                        <li><a href="https://github.com/PubuduS/ETL_TO_CSV_Exporter" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Github"><img src="images/git.png" alt="git"></a></li>
-                        <li><a href="https://youtu.be/tM_0LIAZWM4" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Demo"><img src="images/share.png" alt="share"></a></li>
-                        <li><a href="javascript:void(0)" class="disabled" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Documentation"><img src="images/file.png" alt="file"></a></li>
-                    </ul>
-                </section>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- Projects -->
-
-
-    <div class="modal fade" id="exampleModal" aria-labelledby="exampleModalLabel" aria-modal="true" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Cover Letter Generator</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="manager-name" class="col-form-label">Manager Name:</label>
-                <input type="text" class="form-control" id="manager-name" onkeyup="allLetter(this)">
-                <div id="managerHelp" class="form-text">If manager name is unknown leave it empty.</div>
               </div>
-              <div class="mb-3">
-                <select class="form-control" aria-label="Default select example" id="position-name">
-                  <option selected="">Please select</option>
-                  <option value="1" selected="">Software Engineer</option>
-                  <option value="2">Junior Software Engineer</option>
-                  <option value="3">Software Engineer Intern</option>
-                  <option value="4">Associate Software Engineer Intern</option>
-                  <option value="5">Software Developer</option>
-                  <option value="6">Software Developer Intern</option>
-                  <option value="7">C++ Developer</option>
-                  <option value="8">Java Developer</option>
-                  <option value="9">Mixed Reality Developer</option>
-                  <option value="10">Junior Game Developer</option>
-                  <option value="11">Game Developer</option>
-                </select>
-              </div>
-              <div class="mb-4">
-                <label for="company-name" class="col-form-label">Company Name:</label>
-                <input type="text" class="form-control" id="company-name" required="">
-              </div>
-              <div class="mb-3">
-                <button type="button" class="submit-btn" data-dismiss="modal" aria-label="Close" onclick="generate()">Generate</button>
-              </div>
-            </form>
+            </div>
           </div>
+        </div>
+        <!--// Main Section \\-->
 
+        <!--// Main Section \\-->
+        <div
+          class="pw-main-section education-full"
+          id="section_6"
+          data-anchor="education"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2>EDUCATION AND CREDENTIALS</h2>
+                </div>
+              </div>
+              <div class="col-md-6 fadeLeft" data-t-show="3">
+                <div class="uni-wrap">
+                  <h4>University of Nebraska at Omaha</h4>
+                  <p>2021 - 2023</p>
+                  <p>MASTER OF SCIENCE (M.SC.) IN COMPUTER SCIENCE</p>
+                  <p>
+                    <span>GPA: <strong>3.952</strong></span
+                    ><span>Awarded: <strong>GRACA grant</strong></span>
+                  </p>
+                  <p>
+                    <span>Credits: <strong>30/30</strong></span
+                    ><span>Graduated: <strong>19th of May 2023</strong></span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 fadeRight" data-t-show="3">
+                <div class="uni-wrap">
+                  <h4>South Dakota State University</h4>
+                  <p>2016-2019</p>
+                  <p>BACHELOR OF SCIENCE (B.SC.) IN COMPUTER SCIENCE</p>
+                  <p>
+                    <span>GPA: <strong>3.537</strong></span
+                    ><span>Dean's List: <strong>Spring 2019</strong></span>
+                  </p>
+                  <p>
+                    <span>Credits: <strong>149/120</strong></span
+                    ><span>Graduated: <strong>04th of May 2019</strong></span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-12 fadeUp" data-t-show="3">
+                <div class="education-table">
+                  <h2>Core Courses</h2>
+                  <div class="scrol-table">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Core CS</th>
+                          <th>Software</th>
+                          <th>Math</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Data Structures</td>
+                          <td>Parallel Computing</td>
+                          <td>Calculus I</td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>Assembly Language</td>
+                          <td>Foundation on Software Engineering</td>
+                          <td>Calculus II</td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td>Computer Architecture</td>
+                          <td>Object Oriented Programming</td>
+                          <td>Linear Algebra and Proof</td>
+                        </tr>
+                        <tr>
+                          <td>4</td>
+                          <td>System Programming</td>
+                          <td>Database Management</td>
+                          <td>Discrete Mathematics</td>
+                        </tr>
+                        <tr>
+                          <td>5</td>
+                          <td>Digital Systems</td>
+                          <td>Software Project Management & Testing</td>
+                          <td>Scientific Computations</td>
+                        </tr>
+                        <tr>
+                          <td>6</td>
+                          <td>Programming Languages</td>
+                          <td>Artificial Intelligence</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>7</td>
+                          <td>Theory of Computation</td>
+                          <td>Game Programming</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>Operating Systems</td>
+                          <td>Software Ethics</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>9</td>
+                          <td>Compiler Construction</td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>10</td>
+                          <td>Scientific Computations</td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 fadeUp" data-t-show="3">
+                <div class="uni-wrap high">
+                  <h4>
+                    American College of Higher Education associated with Broward
+                    College ( 2014-2016 )
+                  </h4>
+                  <p>2014-2016</p>
+                  <p>ASSOCIATE DEGREE IN COMPUTER SCIENCE</p>
+                  <p>
+                    <span>GPA: <strong>3.84</strong></span
+                    ><span
+                      >Dean's List:
+                      <strong
+                        >Fall 2014, Spring 2015, Fall 2015, Spring 2016</strong
+                      ></span
+                    ><span class="pice"
+                      >President's List: <strong>Summer 2015</strong></span
+                    >
+                  </p>
+                  <p>
+                    <span>Credits: <strong>79/60</strong></span
+                    ><span
+                      >Transfered to South Dakota State University in Fall
+                      2016</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Main Section \\-->
+
+        <!--// Main Section \\-->
+        <div class="pw-main-section certifications-full">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2>Certifications</h2>
+                </div>
+                <div class="certifications-wrap">
+                  <ul class="row">
+                    <li class="col-md-6 fadeRight" data-t-show="3">
+                      <section>
+                        <img src="images/certificate.png" alt="certification" />
+                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <p>Completed: In progress</p>
+                        <p>Issuing Organization: Udemy</p>
+                        <p>Credential ID: None</p>
+                        <p>
+                          Certificate:
+                          <a
+                            href="https://www.coursera.org/account/accomplishments/certificate/R7P6PNDABS9V"
+                            target="_blank"
+                            >Here</a
+                          >
+                        </p>
+                        <p>This is a introductory level course about AWS.</p>
+                      </section>
+                    </li>
+                    <li class="col-md-6 fadeLeft" data-t-show="3">
+                      <section>
+                        <img src="images/certificate.png" alt="certification" />
+                        <h3>Modern C++ Multi-threading</h3>
+                        <p>Completed: 04/26/2023</p>
+                        <p>Issuing Organization: Udemy</p>
+                        <p>Credential ID: e2be974d7844</p>
+                        <p>
+                          Certificate:
+                          <a
+                            href="https://www.udemy.com/certificate/UC-ecab9d2a-2f1c-4eab-856c-e2be974d7844/"
+                            target="_blank"
+                            >Here</a
+                          >
+                        </p>
+                        <p>
+                          This is an introductory course on modern C++
+                          multi-threading capabilities.
+                        </p>
+                      </section>
+                    </li>
+                    <li class="col-md-6 fadeLeft" data-t-show="3">
+                      <section>
+                        <img src="images/certificate.png" alt="certification" />
+                        <h3>Object Oriented Programming in Java</h3>
+                        <p>Completed: 02/09/2020</p>
+                        <p>Issuing Organization: Coursera</p>
+                        <p>Credential ID: 64EPBBAFEWYL</p>
+                        <p>
+                          Certificate:
+                          <a
+                            href="https://www.coursera.org/account/accomplishments/certificate/64EPBBAFEWYL"
+                            target="_blank"
+                            >Here</a
+                          >
+                        </p>
+                        <p>
+                          This is a online Coursera course offered by University
+                          of California San Diego.
+                        </p>
+                      </section>
+                    </li>
+                    <li class="col-md-6 fadeRight" data-t-show="3">
+                      <section>
+                        <img src="images/certificate.png" alt="certification" />
+                        <h3>Neural Network and Deep Learning</h3>
+                        <p>Completed: 08/09/2019</p>
+                        <p>Issuing Organization: Coursera</p>
+                        <p>Credential ID: R7P6PNDABS9V</p>
+                        <p>
+                          Certificate:
+                          <a
+                            href="https://www.coursera.org/account/accomplishments/certificate/R7P6PNDABS9V"
+                            target="_blank"
+                            >Here</a
+                          >
+                        </p>
+                        <p>
+                          This is a introductory level course about deep
+                          learning.
+                        </p>
+                      </section>
+                    </li>
+                    <li class="col-md-6 fadeLeft" data-t-show="4">
+                      <section>
+                        <img src="images/certificate.png" alt="certification" />
+                        <h3>Game Development with Unity</h3>
+                        <p>Completed: In progress</p>
+                        <p>Issuing Organization: Udemy</p>
+                        <p>Credential ID: None</p>
+                        <p>Certificate: Not yet complete</p>
+                        <p>
+                          This is a introductory level course about 2D game
+                          development with C#.
+                        </p>
+                      </section>
+                    </li>
+                    <li class="col-md-6 fadeRight" data-t-show="4">
+                      <section>
+                        <img src="images/certificate.png" alt="certification" />
+                        <h3>Web Development Bootcamp</h3>
+                        <p>Completed: In progress</p>
+                        <p>Issuing Organization: Udemy</p>
+                        <p>Credential ID: None</p>
+                        <p>Certificate: Not yet complete</p>
+                        <p>
+                          This is a introductory level course about web
+                          development.
+                        </p>
+                      </section>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Main Section \\-->
+
+        <!--// Main Section \\-->
+        <div class="pw-main-section get-in-touchfull" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title">
+                  <h2>LET'S GET IN TOUCH</h2>
+                </div>
+              </div>
+              <div class="col-md-5 fadeLeft" data-t-show="3">
+                <div class="contact-detail">
+                  <p>
+                    Need anything build, want to work together, discuss about
+                    new opportunity or simply want to have a chat?
+                  </p>
+                  <p>
+                    Drop me an email at
+                    <a href="mailto:pubudusupun@gmail.com"
+                      >pubudusupun@gmail.com</a
+                    >
+                    or simply fill out the form below and I will reply yo you
+                    soon!
+                  </p>
+                  <h2>Follow Me</h2>
+                  <ul class="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/pubudu-wijesooriya/"
+                        target="_blank"
+                        class="fa fa-linkedin"
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/PubuduS/"
+                        target="_blank"
+                        class="fa fa-github"
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="mailto:pubudusupun@gmail.com"
+                        class="fa fa-envelope"
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-7 fadeRight" data-t-show="3">
+                <div class="contact-form">
+                  <form action="">
+                    <ul>
+                      <li>
+                        <input
+                          class="form-control"
+                          type="email"
+                          placeholder="Email Address"
+                        />
+                      </li>
+                      <li>
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Your Name"
+                        />
+                      </li>
+                      <li>
+                        <textarea
+                          class="form-control"
+                          placeholder="Your Message"
+                        ></textarea>
+                      </li>
+                      <li>
+                        <input
+                          type="submit"
+                          class="submit-btn"
+                          value="Submit"
+                        />
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// Main Section \\-->
+      </div>
+      <!--// Main Content \\-->
+
+      <!-- Projects -->
+      <div
+        class="modal fade projects-modal"
+        id="oneModal"
+        aria-labelledby="oneModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro1.jpg" alt="project" />
+                </figure>
+                <section>
+                  <h3>Mixed Reality Gait Trainer</h3>
+                  <p>
+                    Designed and developed an <b>application</b> for HoloLens 2
+                    which provides gait training to patients.
+                  </p>
+                  <p>
+                    Technologies:
+                    <b
+                      >C#, Unity ,Git, Github Actions, Jenkins, Jira, Doxygen</b
+                    >
+                  </p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="https://github.com/PubuduS/Gait_Training/tree/dev_followme"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtu.be/yYSE6b71oOo"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://pubudus.github.io/Gait_Training/"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Documentation"
+                        ><img src="images/file.png" alt="file"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="images/screen_shots/gait_demo-ss.png"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Screen Shot"
+                        ><img src="images/cut.png" alt="cut"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-        <!--// Footer \\-->
-        <footer id="pw-footer" class="pw-footer-one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="footer-navs">
-                            <a href="index.html" class="footer-logo"><img src="images/footer-logo.svg" alt="footer-logo"></a>
-                            <ul>
-                              <li><a class="bottom-scroll" href="#section_1">Home</a></li>
-                              <li><a class="bottom-scroll" href="#section_2">About Me</a></li>
-                              <li><a class="bottom-scroll" href="#section_3">Skills</a></li>
-                              <li><a class="bottom-scroll" href="#section_4">Experience</a></li>
-                              <li><a class="bottom-scroll" href="#section_5">Portfolio</a></li>
-                              <li><a class="bottom-scroll" href="#section_6">Education</a></li>
-                              <li><a href="resume/PWijesooriya_Resume.pdf" target="_blank">Resume</a></li>
-                              <li><a data-toggle="modal" data-target="#exampleModal" href="javascript:void(0)">Cover Letter</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div
+        class="modal fade projects-modal"
+        id="twoModal"
+        aria-labelledby="twoModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro2.png" alt="project" />
+                </figure>
+                <section>
+                  <h3>Centerlized Server</h3>
+                  <p>
+                    Developed a <b>feature</b> to add centralized server
+                    authentication login functionality for the Sencore MRD5800
+                    product line and its sub-brands.
+                  </p>
+                  <p>
+                    Technologies:
+                    <b
+                      >C++, Tacacs ,HTML, CSS, Python, Scons, Bash, Git, Gerrit,
+                      Subversion, Teamcity, Jira</b
+                    >
+                  </p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        class="disabled"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtu.be/sx0_Yjl_cSQ"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="images/screen_shots/tacacs-ss.PNG"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Screen Shot"
+                        ><img src="images/cut.png" alt="cut"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
             </div>
-            <!-- <div class="copyright">
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade projects-modal"
+        id="threeModal"
+        aria-labelledby="threeModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro3.jpg" alt="project" />
+                </figure>
+                <section>
+                  <h3>Auditor Tool</h3>
+                  <p>
+                    The Qam units use a bash script for the tunning process.
+                    This is a cumbersome process for windows users since they
+                    have to install Cygwin to run the bash script. I developed
+                    this <b>platform independence, portable</b> helper tool to
+                    ease up this process. This was designed to be
+                    <b>user-friendly</b> and it can be used by anyone without
+                    worrying about technical details.
+                  </p>
+                  <p>
+                    Technologies:
+                    <b>Java, XML, Netbeans, cURL, Bash, Git, Gerrit, Jira</b>
+                  </p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="https://github.com/PubuduS/QAM-Auditor"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtu.be/dYWTHK3TkKU"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="images/screen_shots/qam-ss.PNG"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Screen Shot"
+                        ><img src="images/cut.png" alt="cut"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade projects-modal"
+        id="fourModal"
+        aria-labelledby="fourModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro4.jpg" alt="project" />
+                </figure>
+                <section>
+                  <h3>Retro GameBoy</h3>
+                  <p>
+                    Developed a gameboy system with classic game collections.
+                  </p>
+                  <p>
+                    Technologies:
+                    <b>C++, CMake, Git, SFML/Graphics, Jira, Doxygen</b>
+                  </p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="https://github.com/PubuduS/RetroGameBoy"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtu.be/e3Lzqpv7jEE"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="documentation/game_docs/Docs/html/index.html"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Documentation"
+                        ><img src="images/file.png" alt="file"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="images/screen_shots/gameboy-ss.PNG"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Screen Shot"
+                        ><img src="images/cut.png" alt="cut"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade projects-modal"
+        id="fiveModal"
+        aria-labelledby="fiveModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro5.jpg" alt="project" />
+                </figure>
+                <section>
+                  <h3>Sorting Algorithm</h3>
+                  <p>
+                    Developed a collection of sorting algorithm templates alone
+                    with a visualizer to illustrate sorting algorithem behavior.
+                  </p>
+                  <p>
+                    Technologies: <b>C++, CMake, Scons, Git, Jira, Doxygen</b>
+                  </p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="https://github.com/PubuduS/Sorting"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtu.be/OvTVbfHerwY"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="documentation/sort_docs/Docs/html/index.html"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Documentation"
+                        ><img src="images/file.png" alt="file"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="images/screen_shots/sorting-ss.PNG"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Screen Shot"
+                        ><img src="images/cut.png" alt="cut"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade projects-modal"
+        id="sixModal"
+        aria-labelledby="sixModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro6.jpg" alt="project" />
+                </figure>
+                <section>
+                  <h3>Portfolio Website</h3>
+                  <p>
+                    Developed a responsive portfolio. Hosted it on AWS with CDN
+                    functionality for minimum latency. Link it to GitHub
+                    workflow.
+                  </p>
+                  <p>
+                    Technologies:
+                    <b
+                      >HTML, CSS, Javascript, Git, AWS, CloudFront, Git
+                      Workflow</b
+                    >
+                  </p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="https://github.com/PubuduS/Portfolio_V1.0"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        class="disabled"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        class="disabled"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Screen Shot"
+                        ><img src="images/cut.png" alt="cut"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade projects-modal"
+        id="sevenModal"
+        aria-labelledby="sevenModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro7.jpg" alt="project" />
+                </figure>
+                <section>
+                  <h3>Detective-Adventure</h3>
+                  <p>Developed a 2D RPG game using unity game engine.</p>
+                  <p>Technologies: <b>C#, Git</b></p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="https://github.com/PubuduS/Detective-Adventure-Beta"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtu.be/MhaBu72R1R4"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="images/screen_shots/detective-game.PNG"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Screen Shot"
+                        ><img src="images/cut.png" alt="cut"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade projects-modal"
+        id="eightModal"
+        aria-labelledby="eightModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro8.jpg" alt="project" />
+                </figure>
+                <section>
+                  <h3>Inventory Control System</h3>
+                  <p>
+                    Developed a small inventory control software for a small
+                    business.
+                  </p>
+                  <p>Technologies: <b>Java, Netbeans</b></p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        class="disabled"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        class="disabled"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="images/screen_shots/sapna-ss.png"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Screen Shot"
+                        ><img src="images/cut.png" alt="cut"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade projects-modal"
+        id="nineModal"
+        aria-labelledby="nineModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="project-mod">
+                <figure>
+                  <img src="images/pro9.jpg" alt="project" />
+                </figure>
+                <section>
+                  <h3>ETL to CSV Exporter</h3>
+                  <p>
+                    This helper tool is designed to export windows performance
+                    analyzer .etl trace files to CSV format. The user has to
+                    enter the .etl file directory and then choose from the 4
+                    profiles (CPU, GPU, Memory, Storage). Then, the system will
+                    iteratively export all the data in CSV format.
+                  </p>
+                  <p>Technologies: <b>Java, Netbeans, Github</b></p>
+                  <ul class="links">
+                    <li>
+                      <a
+                        href="https://github.com/PubuduS/ETL_TO_CSV_Exporter"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Github"
+                        ><img src="images/git.png" alt="git"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://youtu.be/tM_0LIAZWM4"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Demo"
+                        ><img src="images/share.png" alt="share"
+                      /></a>
+                    </li>
+                    <li>
+                      <a
+                        href="javascript:void(0)"
+                        class="disabled"
+                        target="_blank"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Documentation"
+                        ><img src="images/file.png" alt="file"
+                      /></a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Projects -->
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        aria-labelledby="exampleModalLabel"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Cover Letter Generator
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="manager-name" class="col-form-label"
+                    >Manager Name:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="manager-name"
+                    onkeyup="allLetter(this)"
+                  />
+                  <div id="managerHelp" class="form-text">
+                    If manager name is unknown leave it empty.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <select
+                    class="form-control"
+                    aria-label="Default select example"
+                    id="position-name"
+                  >
+                    <option selected="">Please select</option>
+                    <option value="1" selected="">Software Engineer</option>
+                    <option value="2">Junior Software Engineer</option>
+                    <option value="3">Software Engineer Intern</option>
+                    <option value="4">
+                      Associate Software Engineer Intern
+                    </option>
+                    <option value="5">Software Developer</option>
+                    <option value="6">Software Developer Intern</option>
+                    <option value="7">C++ Developer</option>
+                    <option value="8">Java Developer</option>
+                    <option value="9">Mixed Reality Developer</option>
+                    <option value="10">Junior Game Developer</option>
+                    <option value="11">Game Developer</option>
+                  </select>
+                </div>
+                <div class="mb-4">
+                  <label for="company-name" class="col-form-label"
+                    >Company Name:</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="company-name"
+                    required=""
+                  />
+                </div>
+                <div class="mb-3">
+                  <button
+                    type="button"
+                    class="submit-btn"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                    onclick="generate()"
+                  >
+                    Generate
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--// Footer \\-->
+      <footer id="pw-footer" class="pw-footer-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer-navs">
+                <a href="index.html" class="footer-logo"
+                  ><img src="images/footer-logo.svg" alt="footer-logo"
+                /></a>
+                <ul>
+                  <li><a class="bottom-scroll" href="#section_1">Home</a></li>
+                  <li>
+                    <a class="bottom-scroll" href="#section_2">About Me</a>
+                  </li>
+                  <li><a class="bottom-scroll" href="#section_3">Skills</a></li>
+                  <li>
+                    <a class="bottom-scroll" href="#section_4">Experience</a>
+                  </li>
+                  <li>
+                    <a class="bottom-scroll" href="#section_5">Portfolio</a>
+                  </li>
+                  <li>
+                    <a class="bottom-scroll" href="#section_6">Education</a>
+                  </li>
+                  <li>
+                    <a href="resume/PWijesooriya_Resume.pdf" target="_blank"
+                      >Resume</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                      href="javascript:void(0)"
+                      >Cover Letter</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="copyright">
                 <div class="container">
                     <span>Copyrights © 2022 All Rights Reserved.</span>
                     <span>Developed with <i class="fa fa-heart"></i> by <a href="https://www.softenica.com/" target="_blank">Softenica Technologies</a></span>
                 </div>
             </div> -->
-            <a href="javascript:void(0)" class="backtop fa fa-angle-up"></a>
-        </footer>
-        <!--// Footer \\-->
+        <a href="javascript:void(0)" class="backtop fa fa-angle-up"></a>
+      </footer>
+      <!--// Footer \\-->
 
-	<div class="clearfix"></div>
+      <div class="clearfix"></div>
     </div>
     <!--// Main Wrapper \\-->
 
-
-	<!-- jQuery (necessary for JavaScript plugins) -->
-	<script type="text/javascript" src="script/jquery.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for JavaScript plugins) -->
+    <script type="text/javascript" src="script/jquery.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="script/bootstrap.min.js"></script>
     <script type="text/javascript" src="script/slick.slider.min.js"></script>
     <script type="text/javascript" src="script/progressbar.js"></script>
     <script type="text/javascript" src="script/t-scroll.min.js"></script>
     <script type="text/javascript" src="script/functions.js"></script>
 
- <script>
-    $(document).ready(function () {
-    const d = new Date();
-    const month = d.getMonth() + 1;
-    if(month <=3 || month == 12)
-    {
-        $('#second,#third').hide();
-        $('#first').show();
-    }else if (month > 3 && month <= 8){
-        $('#first,#third').hide();
-        $('#second').show();
-    }else {
-        $('#first,#second').hide();
-        $('#third').show();
-    }
-});
- </script>
+    <script>
+      $(document).ready(function () {
+        const d = new Date();
+        const month = d.getMonth() + 1;
+        if (month <= 3 || month == 12) {
+          $('#second,#third').hide();
+          $('#first').show();
+        } else if (month > 3 && month <= 8) {
+          $('#first,#third').hide();
+          $('#second').show();
+        } else {
+          $('#first,#second').hide();
+          $('#third').show();
+        }
+      });
+    </script>
 
-  <!-- Need the followings to generate cover letter -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.28.6/docxtemplater.js"></script>
-  <script src="https://unpkg.com/pizzip@3.1.1/dist/pizzip.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
-  <script src="https://unpkg.com/pizzip@3.1.1/dist/pizzip-utils.js"></script>
+    <!-- Need the followings to generate cover letter -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.28.6/docxtemplater.js"></script>
+    <script src="https://unpkg.com/pizzip@3.1.1/dist/pizzip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="https://unpkg.com/pizzip@3.1.1/dist/pizzip-utils.js"></script>
 
+    <script>
+      function loadFile(url, callback) {
+        PizZipUtils.getBinaryContent(url, callback);
+      }
 
+      function generate() {
+        loadFile('resume/PubuduCoverLetter.docx', function (error, content) {
+          if (error) {
+            throw error;
+          }
+          var zip = new PizZip(content);
+          var doc = new window.docxtemplater(zip, {
+            paragraphLoop: true,
+            linebreaks: true,
+          });
 
-<script>
-     function loadFile(url, callback)
-     {
-         PizZipUtils.getBinaryContent(url, callback);
-     }
+          var managerName = document.getElementById('manager-name').value;
+          var positionIndex = document.getElementById('position-name');
+          var positionName =
+            positionIndex.options[positionIndex.selectedIndex].text;
+          var companyName = document.getElementById('company-name').value;
 
-     function generate()
-     {
-         loadFile(
-             "resume/PubuduCoverLetter.docx",
-             function (error, content)
-             {
-                 if (error)
-                 {
-                     throw error;
-                 }
-                 var zip = new PizZip(content);
-                 var doc = new window.docxtemplater(zip, {
-                     paragraphLoop: true,
-                     linebreaks: true,
-                 });
+          if (managerName === '') {
+            managerName = 'Hiring Committee';
+          }
 
-                var managerName = document.getElementById('manager-name').value;
-                var positionIndex = document.getElementById('position-name');
-                var positionName = positionIndex.options[positionIndex.selectedIndex].text;
-                var companyName = document.getElementById('company-name').value;
+          // Render the document (Replace {first_name} by John, {last_name} by Doe, ...)
+          doc.render({
+            Date: getDate(),
+            Manager: managerName,
+            Position: positionName,
+            Company: companyName,
+          });
 
-                if(managerName === '')
-                {
-                  managerName = "Hiring Committee";
-                }
+          var out = doc.getZip().generate({
+            type: 'blob',
+            mimeType:
+              'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+            // compression: DEFLATE adds a compression step.
+            // For a 50MB output document, expect 500ms additional CPU time
+            compression: 'DEFLATE',
+          });
+          // Output the document using Data-URI
+          saveAs(out, 'PWijesooriya_Cover_Letter.docx');
+        });
+      }
 
-                 // Render the document (Replace {first_name} by John, {last_name} by Doe, ...)
-                 doc.render({
-                     Date: getDate(),
-                     Manager: managerName,
-                     Position: positionName,
-                     Company: companyName,
-                 });
+      function getDate() {
+        var today = new Date();
+        var day = String(today.getDate()).padStart(2, '0');
+        // January is 0
+        var month = String(today.getMonth() + 1).padStart(2, '0');
+        var year = today.getFullYear();
 
-                 var out = doc.getZip().generate({
-                     type: "blob",
-                     mimeType:
-                         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                     // compression: DEFLATE adds a compression step.
-                     // For a 50MB output document, expect 500ms additional CPU time
-                     compression: "DEFLATE",
-                 });
-                 // Output the document using Data-URI
-                 saveAs(out, "PWijesooriya_Cover_Letter.docx");
-             }
-         );
-     }
+        today = month + '/' + day + '/' + year;
+        return today;
+      }
 
-     function getDate()
-     {
-       var today = new Date();
-       var day = String(today.getDate()).padStart(2, '0');
-       // January is 0
-       var month = String(today.getMonth() + 1).padStart(2, '0');
-       var year = today.getFullYear();
-
-       today = month + '/' + day + '/' + year;
-       return today;
-     }
-
-     function allLetter(inputTxt)
-     {
-         var letters = /^[a-z]*$/i;
-         if (!inputTxt.value.match(letters))
-         {
-             alert('Please input letters only');
-         }
-     }
-
- </script>
-
+      function allLetter(inputTxt) {
+        var letters = /^[a-z]*$/i;
+        if (!inputTxt.value.match(letters)) {
+          alert('Please input letters only');
+        }
+      }
+    </script>
   </body>
 </html>
